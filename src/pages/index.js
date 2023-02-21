@@ -6,6 +6,7 @@ import Navbar from '../components/navbar'
 import Banner from '../components/bannerdesk'
 import Testimonial from '../components/testimonial'
 import Table from '../components/table'
+import Benefits from '@/components/benefits'
  
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,7 +17,8 @@ export default function Home() {
         <Navbar/>
         {/* <Banner/> */}
         {/* <Testimonial/> */}
-        <Table/>
+        {/* <Table/> */}
+        <Benefits/>
      </>
   )
 }

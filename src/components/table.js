@@ -20,7 +20,7 @@ export default function Table() {
             <h2 className="text-lg font-semibold mb-4 bg-[#1E2B5E] text-white font-serif text-center p-2">Why do you need JP Course</h2>
             <div className=' p-4 text-lg font-normal mb-1'>
                 <h1 className='font-medium text-center'>Immerse yourself in the practical Japanese conversations</h1>
-                  <p className='bg-[#F5F8FF]'>
+                  <p className='bg-[#F5F8FF] p-4'>
                   1. Detailed topics that you face very often in everyday life: <br/>
                   I. “Ugh, my close friend is badmouthing me!” <br/>
                   II. “I got a surprise proposal from my fiance!” <br/>
@@ -30,7 +30,7 @@ export default function Table() {
             </div>
             <div className=' p-4 text-lg font-normal mb-1'>
                 <h1 className='font-medium text-center'>Immerse yourself in the practical Japanese conversations</h1>
-                  <p className='bg-[#F5F8FF]'>
+                  <p className='bg-[#F5F8FF] p-4'>
                   1. Detailed topics that you face very often in everyday life: <br/>
                   I. “Ugh, my close friend is badmouthing me!” <br/>
                   II. “I got a surprise proposal from my fiance!” <br/>
@@ -40,7 +40,7 @@ export default function Table() {
             </div>
             <div className=' p-4 text-lg font-normal mb-1'>
                 <h1 className='font-medium text-center'>Immerse yourself in the practical Japanese conversations</h1>
-                  <p className='bg-[#F5F8FF]'>
+                  <p className='bg-[#F5F8FF] p-4'>
                   1. Detailed topics that you face very often in everyday life: <br/>
                   I. “Ugh, my close friend is badmouthing me!” <br/>
                   II. “I got a surprise proposal from my fiance!” <br/>
@@ -55,7 +55,7 @@ export default function Table() {
             <h2 className="text-lg font-semibold mb-4 bg-[#1E2B5E] text-white font-serif text-center p-2">Why do you need JP Course</h2>
             <div className=' p-4 text-lg font-normal mb-1'>
                 <h1 className='font-medium text-center'>Immerse yourself in the practical Japanese conversations</h1>
-                  <p className='bg-[#F5F8FF]'>
+                  <p className='bg-[#F5F8FF] p-4'>
                   1. Detailed topics that you face very often in everyday life: <br/>
                   I. “Ugh, my close friend is badmouthing me!” <br/>
                   II. “I got a surprise proposal from my fiance!” <br/>
@@ -65,7 +65,7 @@ export default function Table() {
             </div>
             <div className=' p-4 text-lg font-normal mb-1'>
                 <h1 className='font-medium text-center'>Immerse yourself in the practical Japanese conversations</h1>
-                  <p className='bg-[#F5F8FF]'>
+                  <p className='bg-[#F5F8FF] p-4'>
                   1. Detailed topics that you face very often in everyday life: <br/>
                   I. “Ugh, my close friend is badmouthing me!” <br/>
                   II. “I got a surprise proposal from my fiance!” <br/>
@@ -75,7 +75,7 @@ export default function Table() {
             </div>
             <div className=' p-4 text-lg font-normal mb-1'>
                 <h1 className='font-medium text-center'>Immerse yourself in the practical Japanese conversations</h1>
-                  <p className='bg-[#F5F8FF]'>
+                  <p className='bg-[#F5F8FF] p-4'>
                   1. Detailed topics that you face very often in everyday life: <br/>
                   I. “Ugh, my close friend is badmouthing me!” <br/>
                   II. “I got a surprise proposal from my fiance!” <br/>
