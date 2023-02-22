@@ -7,6 +7,8 @@ import Banner from '../components/bannerdesk'
 import Testimonial from '../components/testimonial'
 import Table from '../components/table'
 import Benefits from '@/components/benefits'
+import Price from '../components/price'
+import Footer from '../components/footer'
  
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,7 +20,9 @@ export default function Home() {
         {/* <Banner/> */}
         {/* <Testimonial/> */}
         {/* <Table/> */}
-        <Benefits/>
+        {/* <Benefits/> */}
+        {/* <Price/> */}
+        <Footer/>
      </>
   )
 }
