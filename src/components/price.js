@@ -46,7 +46,8 @@ const price = () => {
           <h2 className="text-2xl text-center font-bold mb-2 pt-2">
             $ 2,800 / Months
           </h2>
-        </div><div className="bg-white rounded-lg shadow-lg   border-4 border-[#FFC727] r-0">
+        </div>
+        <div className="bg-white rounded-lg shadow-lg   border-4 border-[#FFC727] r-0">
           <h2 className="text-2xl text-center font-bold mb-4 bg-[#ffe680] mb-4">
             3 Month
           </h2>
