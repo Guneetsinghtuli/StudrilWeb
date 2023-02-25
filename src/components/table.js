@@ -9,8 +9,9 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Table() {
     return (
       <>
-       <div>
-        <h1 className='text-center font-bold mb-4 text-[#1E2B5E] font-serif text-3xl pt-4'>How will Jp Course change <br/> your life?</h1>
+      <section className='mt-48'>
+      <div>
+        <h1 className='text-center font-bold mb-4 text-[#1E2B5E] font-serif text-3xl pt-100'>How will Jp Course change <br/> your life?</h1>
         <h2 className='text-center text-lg font-bold mb-4 text-[#1E2B5E] font-serif '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</h2>
        </div>
        <div className="w-full border-{#1E2B5E} ">
@@ -87,6 +88,7 @@ export default function Table() {
         </div>
       </div>
     </div>
+      </section>
       </>
     );
   }
