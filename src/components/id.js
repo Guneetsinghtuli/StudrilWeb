@@ -12,7 +12,7 @@ const price = () => {
   return (
     <section className="mt-24 mb-10">
       <div>
-        <h1 className="text-center font-bold mb-4 text-[#1E2B5E] font-serif text-3xl pt-100">
+        <h1 className="text-center font-bold mb-4 text-[#1E2B5E] font-serif text-2xl pt-100">
         Which one are you?
         </h1>
         <h2 className="text-center text-lg font-bold mb-4 text-[#1E2B5E] font-serif ">
