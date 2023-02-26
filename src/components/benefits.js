@@ -12,8 +12,9 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Benefits() {
     return (
       < >
-      <section className='mt-48'>
-      <div className='text-center'>
+      <section>
+    <div>
+    <div className='text-center '>
         <h1 className='text-center font-bold mb-4 text-[#1E2B5E] font-serif text-3xl pt-4'>JP Course Benefits</h1>
         <p className='text-center text-lg font-bold mb-4 text-[#1E2B5E] font-serif '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
       </div>
@@ -107,6 +108,7 @@ export default function Benefits() {
           </div>
         </div>
       </div>
+    </div>
     </div>
       </section>
       </>

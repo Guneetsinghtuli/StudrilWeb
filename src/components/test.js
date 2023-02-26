@@ -12,11 +12,18 @@ import Video1 from "../assets/play.png";
 
 const test = () => {
   return (
-    <section className=" mt-40">
-     <div className="mt-60">
+    <section >
+      <div class="relative">
+  <div class="bottom-0 left-0 right-0 h-22">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="2 0 1440 230">
+      <path class="fill-current text-yellow-500" d="M0,160L60,149.3C120,139,240,117,360,138.7C480,160,600,224,720,240C840,256,960,224,1080,197.3C1200,171,1320,149,1380,138.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+    </svg>
+  </div>
+  </div>
+     <div className=" bg-[#EFCB27]">
         
-     <div className="mt-10">
-        <h1 className="text-center font-bold mb-4 text-[#1E2B5E] font-serif text-2xl pt-100">
+     <div className="">
+        <h1 className="text-center font-bold mb-4 text-[#1E2B5E] font-serif text-2xl pt-100 ">
           Which one are you?
         </h1>
         <h2 className="text-center text-3xl font-bold mb-4 text-[#1E2B5E] font-serif ">

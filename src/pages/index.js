@@ -10,21 +10,26 @@ import Benefits from "@/components/benefits";
 import Footer from "../components/footer";
 import Id from "../components/id";
 import Test from "../components/test";
+import MainM from "../mobilecomponents/main"
+import FeatureM from '../mobilecomponents/feature'
+import useMediaQuery from "@/components/hooks/useMobile";
+import Upfooter from '../mobilecomponents/upfooter'
 
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const isDesktop = useMediaQuery('(min-width: 960px)');
+
   return (
     <>
       <Navbar />
-      <BannerDesk />
+       {isDesktop?<BannerDesk />:<MainM/>}
       <Test />
       <Id />
       <Table />
-      <Benefits />
-      <Price />
+      {isDesktop?<Benefits />:<FeatureM/>}
+      {isDesktop? <Price />: <Upfooter/>}
       <Footer />
-      {/* <BannerDesk/> */}
+     
     </>
   );
 }
