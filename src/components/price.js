@@ -26,7 +26,7 @@ const price = () => {
             </button>
           </div>
           <hr />
-          <h2 className="text-2xl text-center font-bold mb-2 pt-2">
+          <h2 className="text-xl text-center font-bold mb-2 pt-2">
             $ 2,800 / Months
           </h2>
         </div><div className="bg-white rounded-lg shadow-lg   border-4 border-[#FFC727] m-4">
@@ -43,7 +43,7 @@ const price = () => {
             </button>
           </div>
           <hr />
-          <h2 className="text-2xl text-center font-bold mb-2 pt-2">
+          <h2 className="text-xl text-center font-bold mb-2 pt-2">
             $ 2,800 / Months
           </h2>
         </div>
@@ -61,7 +61,7 @@ const price = () => {
             </button>
           </div>
           <hr />
-          <h2 className="text-2xl text-center font-bold mb-2 pt-2">
+          <h2 className="text-xl text-center font-bold mb-2 pt-2">
             $ 2,800 / Months
           </h2>
         </div>

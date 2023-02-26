@@ -24,6 +24,7 @@ export default function Home() {
       <Benefits />
       <Price />
       <Footer />
+      {/* <BannerDesk/> */}
     </>
   );
 }
