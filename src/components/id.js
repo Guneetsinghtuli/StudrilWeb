@@ -19,7 +19,7 @@ const price = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
         </h2>
       </div>
-      <div className="flex flex-row m-4 justify-around">
+      <div className="flex flex-col md:flex-row  m-4 justify-around">
       <div className="bg-white rounded-lg shadow-lg   border-4 border-[#FFC727] l-0">
           <h2 className="text-6 text-center font-bold mb-4 bg-[#ffe680] mb-4">
           Koibito, doko?

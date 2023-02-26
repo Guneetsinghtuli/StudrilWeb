@@ -11,7 +11,7 @@ const price = () => {
           Ready to speak with JpCourse?
         </h2>
       </div>
-      <div className="flex flex-row m-4 justify-center">
+      <div className="flex flex-col md:flex-row  m-4 justify-center">
       <div className="bg-white rounded-lg shadow-lg   border-4 border-[#FFC727] l-0">
           <h2 className="text-2xl text-center font-bold mb-4 bg-[#ffe680] mb-4">
             3 Month

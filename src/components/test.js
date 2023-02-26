@@ -24,7 +24,7 @@ const test = () => {
           vulputate libero et velit interdum, ac aliquet odio mattis.
         </h2>
       </div>
-      <div className="flex flex-row m-2 justify-around">
+      <div className="flex flex-col md:flex-row  m-2 justify-around">
         <div className="bg-white w-96 rounded-xl shadow-xl ">
           <div className="flex flex-row m-4">
             <Image src={Img}></Image>

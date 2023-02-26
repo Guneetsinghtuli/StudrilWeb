@@ -4,11 +4,13 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Banner from '../assets/banner.png'
+import ImageB from '../assets/benefit1.png'
+
 
 const bannerdesk = () => {
   return (
     <section>
-      <div className='flex flex-row justify-around m-2 mt-4 '>
+      {/* <div className='flex justify-around m-2 mt-4 '>
         <div className='flex flex-col  text-center m-4 mt-40 text-justify ml-20'>
         <h1 className='text-2xl font-bold'>Learn Express</h1>
         <h1 className='text-2xl font-bold'>and Speak</h1>
@@ -33,15 +35,39 @@ const bannerdesk = () => {
         <div className='ml-24 mt-20'> 
           <Image   src={Banner}></Image>
         </div>
+      </div> */}
+      <div className="bg-white-100 py-40 ">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2">
+            <h2 className="text-2xl font-bold  text-[#1E2B5E]">Learn Express</h2>
+            <h2 className="text-2xl font-bold mb-2 text-[#1E2B5E]">and Speak</h2>
+            <div className='p-4'>
+            <p className="text-gray-700 mb-4">
+            JPCourse helps you overcome feeling stupid when speaking Japanese because we make you speak.
+            </p>
+             
+            </div>
+          </div>
+          <div className="md:w-1/2 md:pr-8">
+            <Image
+              src={Banner}
+              alt="Example image"
+              width={800}
+              height={800}
+            />
+          </div>
+        </div>
       </div>
-      <div class="relative">
+    </div>
+      {/* <div class="relative">
   <div class="absolute bottom-0 left-0 right-0 h-32">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path class="fill-current text-yellow-500" d="M0,160L60,149.3C120,139,240,117,360,138.7C480,160,600,224,720,240C840,256,960,224,1080,197.3C1200,171,1320,149,1380,138.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
     </svg>
   </div>
-  {/* <!-- Your section content here --> */}
-</div>
+  
+</div> */}
 
 
 
