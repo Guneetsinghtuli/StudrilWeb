@@ -32,7 +32,7 @@ const test = () => {
         </h2>
       </div>
       <div className="flex flex-col md:flex-row  m-2 justify-around">
-      <div className="bg-white w-90 rounded-xl shadow-xl mb-20 m-2">
+      <div className="bg-white w-90 rounded-xl shadow-xl m-2 mb-20">
           <div className="flex flex-row m-4">
             <Image src={Img}></Image>
             <h2 className="text-3xl text-center font-bold mb-4  mb-4 ml-6 mt-4">
@@ -46,8 +46,8 @@ const test = () => {
                 <h2 className="text-3xl text-center font-bold mb-4 bg-[#ffe680] mb-4">
                   Before
                 </h2>
-                <div className=" mb-2 px-16 py-5">
-                  <Image className="w-16" src={Video1}></Image>
+                <div className=" mb-2 px-12 py-5">
+                  <Image className="w-28" src={Video1}></Image>
                 </div>
                  
                 <h2 className="text-3xl text-center font-bold ">
@@ -55,11 +55,11 @@ const test = () => {
                 </h2>
               </div>
               <div className="bg-white rounded-xl shadow-xl   border-4 border-[#FFC727] ml-2">
-                <h2 className="text-3xl text-center font-bold mb-4 bg-[#ffe680] mb-8">
+                <h2 className="text-3xl text-center font-bold mb-4 bg-[#ffe680] mb-4">
                   Before
                 </h2>
-                <div className=" mb-2 px-16 py-5">
-                  <Image className="w-16" src={Video1}></Image>
+                <div className=" mb-2 px-12 py-5">
+                  <Image className="w-28" src={Video1}></Image>
                 </div>
                  
                 <h2 className="text-3xl text-center font-bold ">
@@ -89,8 +89,8 @@ const test = () => {
                 <h2 className="text-3xl text-center font-bold mb-4 bg-[#ffe680] mb-4">
                   Before
                 </h2>
-                <div className=" mb-2 px-16 py-5">
-                  <Image className="w-16" src={Video1}></Image>
+                <div className=" mb-2 px-12 py-5">
+                  <Image className="w-28" src={Video1}></Image>
                 </div>
                  
                 <h2 className="text-3xl text-center font-bold ">
@@ -101,8 +101,8 @@ const test = () => {
                 <h2 className="text-3xl text-center font-bold mb-4 bg-[#ffe680] mb-4">
                   Before
                 </h2>
-                <div className=" mb-2 px-16 py-5">
-                  <Image className="w-16" src={Video1}></Image>
+                <div className=" mb-2 px-12 py-5">
+                  <Image className="w-28" src={Video1}></Image>
                 </div>
                  
                 <h2 className="text-3xl text-center font-bold ">
@@ -132,8 +132,8 @@ const test = () => {
                 <h2 className="text-3xl text-center font-bold mb-4 bg-[#ffe680] mb-4">
                   Before
                 </h2>
-                <div className=" mb-2 px-16 py-5">
-                  <Image className="w-16" src={Video1}></Image>
+                <div className=" mb-2 px-12 py-5">
+                  <Image className="w-28" src={Video1}></Image>
                 </div>
                  
                 <h2 className="text-3xl text-center font-bold ">
@@ -144,8 +144,8 @@ const test = () => {
                 <h2 className="text-3xl text-center font-bold mb-4 bg-[#ffe680] mb-4">
                   Before
                 </h2>
-                <div className=" mb-2 px-16 py-5">
-                  <Image className="w-16" src={Video1}></Image>
+                <div className=" mb-2 px-12 py-5">
+                  <Image className="w-28" src={Video1}></Image>
                 </div>
                  
                 <h2 className="text-3xl text-center font-bold ">
