@@ -20,7 +20,7 @@ const price = () => {
         </h2>
       </div>
       <div className="flex flex-col md:flex-row  m-4 justify-around">
-      <div className="bg-white rounded-lg shadow-lg my-auto  border-4 border-[#FFC727] l-0">
+      <div className="bg-white rounded-lg shadow-lg my-auto  border-4 border-[#FFC727] l-0 mb-10">
           <h2 className="text-6 text-center font-bold mb-4 bg-[#ffe680] mb-4">
           Koibito, doko?
           </h2>
@@ -60,7 +60,7 @@ const price = () => {
             </button>
           </div>
         </div> 
-        <div className="bg-white rounded-lg shadow-lg   border-4 border-[#FFC727] l-0">
+        <div className="bg-white rounded-lg shadow-lg   border-4 border-[#FFC727] l-0 mb-10">
           <h2 className="text-6 text-center font-bold mb-4 bg-[#ffe680] mb-4">
           Koibito, doko?
           </h2>
@@ -100,7 +100,7 @@ const price = () => {
             </button>
           </div>
         </div>
-        <div className="bg-white rounded-lg shadow-lg   border-4 border-[#FFC727] l-0">
+        <div className="bg-white rounded-lg shadow-lg   border-4 border-[#FFC727] l-0 mb-10">
           <h2 className="text-6 text-center font-bold mb-4 bg-[#ffe680] mb-4">
           Koibito, doko?
           </h2>
