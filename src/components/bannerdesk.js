@@ -13,10 +13,10 @@ const bannerdesk = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2">
-              <h2 className="text-2xl font-bold  text-[#1E2B5E]">
+              <h2 className="text-2xl  pl-4 font-bold  text-[#1E2B5E]">
                 Learn Express
               </h2>
-              <h2 className="text-2xl font-bold mb-2 text-[#1E2B5E]">
+              <h2 className="text-2xl pl-4 font-bold mb-2 text-[#1E2B5E]">
                 and Speak
               </h2>
               <div className="p-4">
