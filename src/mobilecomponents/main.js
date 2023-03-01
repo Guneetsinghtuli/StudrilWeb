@@ -8,9 +8,9 @@ import Mobile from '../assets/mobile.png'
 const main = () => {
   return (
     <section>
-        <div className="bg-white-100 mt-28">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center">
+        <div className="bg-white-100 mt-16">
+        <div className="container mx-auto px-8">
+          <div className="flex flex-col  mx-10 my-10 items-center">
           <div className="md:w-1/2 md:pr-8">
               <Image
                 src={Mobile}

@@ -22,12 +22,12 @@ export default function Home() {
   return (
     <>
       <Navbar />
-       {isDesktop?<BannerDesk />:<MainM/>}
+        <MainM/>
       <Test />
       <Id />
       <Table />
-      {isDesktop?<Benefits />:<FeatureM/>}
-      {isDesktop? <Price />: <Upfooter/>}
+       <FeatureM/>
+     <Upfooter/>
       <Footer />
      
     </>
