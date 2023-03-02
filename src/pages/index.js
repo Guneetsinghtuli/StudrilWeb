@@ -10,26 +10,24 @@ import Benefits from "@/components/benefits";
 import Footer from "../components/footer";
 import Id from "../components/id";
 import Test from "../components/test";
-import MainM from "../mobilecomponents/main"
-import FeatureM from '../mobilecomponents/feature'
+import MainM from "../mobilecomponents/main";
+import FeatureM from "../mobilecomponents/feature";
 import useMediaQuery from "@/components/hooks/useMobile";
-import Upfooter from '../mobilecomponents/upfooter'
-
+import Upfooter from "../mobilecomponents/upfooter";
 
 export default function Home() {
-  const isDesktop = useMediaQuery('(min-width: 960px)');
+  const isDesktop = useMediaQuery("(min-width: 960px)");
 
   return (
-    <>
+    <div className="md:ml-96 md:mr-96">
       <Navbar />
-        <MainM/>
+      <MainM />
       <Test />
       <Id />
       <Table />
-       <FeatureM/>
-     <Upfooter/>
+      <FeatureM />
+      <Upfooter />
       <Footer />
-     
-    </>
+    </div>
   );
 }

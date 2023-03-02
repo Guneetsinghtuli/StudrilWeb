@@ -30,18 +30,18 @@ const price = () => {
           vulputate libero et velit interdum, ac aliquet odio mattis.
         </h2>
       </div>
-      <div className="flex flex-col md:flex-col p-8  m-4 justify-around">
+      <div className="flex flex-col md:flex-col p-4 m-4 item-center">
 
       <Slider {...settings}>
-        <div className="bg-white rounded-lg shadow-lg my-auto  border-4 border-[#FFC727] l-0 mb-10">
-          <h2 className="text-6 text-center font-bold mb-4 bg-[#ffe680] mb-4">
+        <div className="bg-white rounded-lg shadow-lg my-auto  border-4 border-[#FFC727] l-0 mb-10   ">
+          <h2 className="text-6 text-center font-bold mb-4 bg-[#ffe680] mb-4 item-center">
             Koibito, doko?
           </h2>
 
-          <div className="text-4xl font-bold text-green-500 mb-2 px-16 py-5">
+          <div className="text-4xl font-bold text-green-500 mb-2 px-16 py-5 item-center">
             <Image src={Think}></Image>
           </div>
-          <div className="m-4">
+          <div className="m-4 item-center">
             <button className="bg-[#1E2B5E] hover:bg-green-600 text-white rounded-full px-4 py-2  font-bold">
               Lorem Ipsum Dolor Sir Amet lorem
             </button>

@@ -62,7 +62,7 @@ export default function Benefits() {
     </div>
 
     <div className="bg-white-100 ">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-2">
         <div className="flex flex-col md:flex-col items-center">
           <div className="md:w-1/2 md:pr-2">
             <Image

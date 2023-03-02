@@ -11,8 +11,8 @@ const bannerdesk = () => {
     <section>
       <div className="bg-white-100 mt-20">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2">
+          <div className="flex flex-col md:flex-row  ">
+            <div className="">
               <h2 className="text-2xl  pl-4 font-bold  text-[#1E2B5E]">
                 Learn Express
               </h2>
