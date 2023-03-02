@@ -74,7 +74,7 @@ export default function Benefits() {
           </div>
           <div className="md:w-1/2">
             <h2 className="text-2xl font-bold text-[#1E2B5E] text-center">StuConfident</h2>
-            <div className='p-4'>
+            <div className='p-2 md:p-0'>
             <p className="text-gray-700 mb-4 text-center">
             Be confident! Because you’ll finally be able to immerse yourself fully into NATURAL Japanese conversation! Think in Japanese, speak natural Japanese. #ByeTextbookJapanese
             </p>

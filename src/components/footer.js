@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container mx-auto py-6 px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h1 className="text-2xl font-semibold text-white mb-2">JPCourse </h1>
+            <h1 className="text-xl font-semibold text-white mb-2">JPCourse </h1>
             <h2 className='text-lg font-semibold text-white mb-2 mt-2'>We make you speak.</h2>
             <p className="text-sm" href='contact@jpcourse.com'>Contact us at contact@jpcourse.com</p>
             

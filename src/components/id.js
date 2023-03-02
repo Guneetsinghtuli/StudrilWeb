@@ -42,7 +42,7 @@ const price = () => {
             <Image src={Think}></Image>
           </div>
           <div className="m-4 item-center">
-            <button className="bg-[#1E2B5E] hover:bg-green-600 text-white rounded-full px-4 py-2  font-bold">
+            <button className="bg-[#1E2B5E] hover:bg-green-600 text-white rounded-full px-20 py-2  font-bold">
               Lorem Ipsum Dolor Sir Amet lorem
             </button>
           </div>

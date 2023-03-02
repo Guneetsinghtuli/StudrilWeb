@@ -28,7 +28,6 @@ seen before
                 <p className="text-gray-700 mb-4 text-center">
                 Studrill is an all-in-one speaking app where you can learn to express yourself & get feedback, listen to Native Japanese, and converse in natural Japanese.
                 </p>
-                 
               </div>
             </div>
             <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4">

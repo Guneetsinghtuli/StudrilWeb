@@ -9,9 +9,9 @@ import styles from '@/styles/Home.module.css'
 const upfooter = () => {
   return (
     <div className="bg-[background: #C4C4C4]-100 mt-28">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto ">
         <div className="flex flex-col md:flex-col items-center">
-          <div className="md:w-1/2">
+          <div className="">
             <h2 className="text-2xl font-bold  text-[#1E2B5E] text-center">
               Claim your Early Access Now!
             </h2>
@@ -39,7 +39,7 @@ const upfooter = () => {
                   Copy Link
                 </button>
                 </div>
-                 <div class="space-x-2 space-y-4 sm:flex sm:space-y-0 sm:space-x-2 mt-4 justify-around">
+                 <div class="space-x-2 space-y-4 sm:flex sm:flex-row sm:space-y-0 sm:space-x-2 mt-4 justify-around">
               <button className="bg-[#1E2B5E] text-white text-lg   Poppins px-4 py-2 rounded-lg"><Image src={Send}></Image>
                   Share Page
                 </button>
