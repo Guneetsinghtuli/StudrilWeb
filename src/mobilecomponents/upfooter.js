@@ -10,7 +10,7 @@ const upfooter = () => {
   return (
     <div className="bg-[background: #C4C4C4]-100 mt-28">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center">
+        <div className="flex flex-col md:flex-col items-center">
           <div className="md:w-1/2">
             <h2 className="text-2xl font-bold  text-[#1E2B5E] text-center">
               Claim your Early Access Now!
