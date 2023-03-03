@@ -36,7 +36,7 @@ const ThreeCardCarousel = () => {
       </div>
       <div className=" bg-[#e1b53e]">
         <div className="">
-          <h1 className="text-center font-bold mb-4 text-[#1E2B5E] font-serif text-2xl pt-100 px-4 py-2 ">
+          <h1 className="text-center font-sans font-bold mb-4 text-[#1E2B5E] font-serif text-2xl pt-100 px-4 py-2 ">
             Which one are you?
           </h1>
           <h2 className="text-center text-3xl font-bold mb-4 text-[#1E2B5E] font-serif px-4  ">

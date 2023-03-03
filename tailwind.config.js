@@ -21,6 +21,11 @@ module.exports = {
         '3xl': '1.33rem',
         '4xl': '2.441rem',
         '5xl': '3.052rem',
-      }
-    }
+      },
+      fontFamily: {
+          'sans': ['Poppins'],
+           
+          'body': ['"Poppins"'],
+        }
+}
 }

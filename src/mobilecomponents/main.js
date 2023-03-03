@@ -20,12 +20,11 @@ const main = () => {
               />
             </div>
             <div className="">
-              <h2 className="text-2xl font-bold  text-[#1E2B5E] text-center">
-              The Japanese speaking app you have never
-seen before
+              <h2 className="text-2xl font-bold font-sans  text-[#1E2B5E] text-center">
+              You deserve to speak Japanese better.
               </h2>
               <div className="p-4">
-                <p className="text-gray-700 mb-4 text-center">
+                <p className="text-gray-700 mb-4 text-center font-sans">
                 Studrill is an all-in-one speaking app where you can learn to express yourself & get feedback, listen to Native Japanese, and converse in natural Japanese.
                 </p>
               </div>
@@ -39,7 +38,7 @@ seen before
                 />
               </div>
               <div class="items-left justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4">
-                <button className="bg-[#EFCB27] text-lg font-bold Poppins px-2 py-4 rounded-lg">
+                <button className="bg-[#EFCB27] font-sans text-lg font-bold Poppins px-2 py-4 rounded-lg">
                   GET EARLY ACCESS AND SPECIAL TREATMENT
                 </button>
               </div>
