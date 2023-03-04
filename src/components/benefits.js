@@ -7,7 +7,7 @@ import ImageB from '../assets/benefit2.png'
 import ImageC from '../assets/benefit3.png'
 
 
-const inter = Inter({ subsets: ['latin'] })
+  
 
 export default function Benefits() {
     return (
@@ -15,8 +15,8 @@ export default function Benefits() {
       <section>
     <div>
     <div className='text-center '>
-        <h1 className='text-center font-bold mb-4 text-[#1E2B5E] font-serif text-3xl pt-4'>JP Course Benefits</h1>
-        <p className='text-center text-lg font-bold mb-4 text-[#1E2B5E] font-serif '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+        <h1 className='text-center font-bold mb-4 text-[#1E2B5E]     text-3xl pt-4'>JP Course Benefits</h1>
+        <p className='text-center text-lg font-bold mb-4 text-[#1E2B5E]     '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
       </div>
        <div className="bg-white-100 py-8">
       <div className="container mx-auto px-4">

@@ -46,7 +46,7 @@ const bannerdesk = () => {
                     </svg>
                     <div class="text-left">
                       <div class="mb-1 text-xs">Download on the</div>
-                      <div class="-mt-1 font-sans text-sm font-semibold">
+                      <div class="-mt-1   text-sm font-semibold">
                         Mac App Store
                       </div>
                     </div>
@@ -72,7 +72,7 @@ const bannerdesk = () => {
                     </svg>
                     <div class="text-left">
                       <div class="mb-1 text-xs">Get in on</div>
-                      <div class="-mt-1 font-sans text-sm font-semibold">
+                      <div class="-mt-1   text-sm font-semibold">
                         Google Play
                       </div>
                     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Think from "../assets/think.png";
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "@next/font/google";
+import { Poppins } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Men from "../assets/men.png";
 import Data from "../assets/data.png";
@@ -36,10 +36,10 @@ const ThreeCardCarousel = () => {
       </div>
       <div className=" bg-[#e1b53e]">
         <div className="">
-          <h1 className="text-center font-sans font-bold mb-4 text-[#1E2B5E] font-serif text-2xl pt-100 px-4 py-2 ">
+          <h1 className="text-center   font-bold mb-4 text-[#1E2B5E]  text-2xl pt-100 px-4 py-2 ">
             Which one are you?
           </h1>
-          <h2 className="text-center text-3xl font-bold mb-4 text-[#1E2B5E] font-serif px-4  ">
+          <h2 className="text-center text-3xl font-bold mb-4 text-[#1E2B5E]     px-4  ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
             vulputate libero et velit interdum, ac aliquet odio mattis.
           </h2>

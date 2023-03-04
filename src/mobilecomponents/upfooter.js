@@ -3,7 +3,7 @@ import Send from '../assets/Send.png'
 import Copy from '../assets/Icon.png'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import { Poppins } from "@next/font/google";
 import styles from '@/styles/Home.module.css'
 
 const upfooter = () => {
@@ -16,7 +16,7 @@ const upfooter = () => {
               Claim your Early Access Now!
             </h2>
             <div className="p-4">
-              <p className="text-gray-700  text-center">
+              <p className="text-gray-700 text-xl text-center">
                 Do not miss out the chance to change your life faster! Special
                 treatments are awaiting for you too!
               </p>
@@ -28,20 +28,22 @@ const upfooter = () => {
                   class="border-blue-500 border-2 rounded-md px-10 py-4"
                 />
               </div>
-              <div class="items-left justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4">
+              <div class=" justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4">
                 <button className="bg-[#EFCB27] text-lg font-bold Poppins px-8 py-4 rounded-lg">
                   GET EARLY ACCESS AND SPECIAL TREATMENT
                 </button>
               </div>
-               <div className="flex flex-row justify-around	">
+               <div className="flex flex-row m-4 item-center">
                <div class="space-x-4 space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4 justify-around">
-              <button className="bg-[#1E2B5E] text-lg  text-white Poppins px-4 py-2 rounded-lg"><Image src={Copy}></Image>
-                  Copy Link
+              <button className="bg-[#1E2B5E] flex flex-row  text-lg  text-white Poppins px-4 py-2 rounded-lg mr-4">
+                <Image src={Copy}></Image>
+                <h2 className="m-2">Click here</h2>
                 </button>
                 </div>
                  <div class="space-x-2 space-y-4 sm:flex sm:flex-row sm:space-y-0 sm:space-x-2 mt-4 justify-around">
-              <button className="bg-[#1E2B5E] text-white text-lg   Poppins px-4 py-2 rounded-lg"><Image src={Send}></Image>
-                  Share Page
+                 <button className="bg-[#1E2B5E] flex flex-row  text-lg  text-white Poppins px-4 py-2 rounded-lg ml-4">
+                <Image src={Send}></Image>
+                <h2 className="m-2">Click here</h2>
                 </button>
                 </div>
                </div>
