@@ -34,34 +34,38 @@ const price = () => {
 
       <Slider {...settings}>
         <div className="bg-white rounded-lg shadow-lg my-auto  border-4 border-[#FFC727] l-0 mb-10   ">
+          <div>
           <h2 className="text-6 text-center font-bold mb-4 bg-[#ffe680] mb-4 item-center">
             Koibito, doko?
           </h2>
-
-          <div className="text-4xl font-bold text-green-500 mb-2 px-16 py-5 item-center">
+          </div>
+          <div className="flex flex-col justify-center">
+          <div className="items-center  mb-2  ">
             <Image src={Think}></Image>
           </div>
-          <div className="m-4 item-center">
+          <div className="m-4 items-center	">
             <button className="bg-[#1E2B5E] hover:bg-green-600 text-white  rounded-full px-20 py-2  font-bold">
               Lorem Ipsum Dolor Sir Amet lorem
             </button>
           </div>
-          <div className="flex flex-col">
+          </div>
+        
+          <div className="flex flex-col items-center	">
             <div className="flex flex-row ml-4 mr-4 mt-2">
-              <Image className="w-8" src={Men}></Image>
+              <Image className="w-8 ml-2 mr-4 mb-2" src={Men}></Image>
               <p>Lorem ipsum dolor sit amet, consectetur.</p>
             </div>
             <div className="flex flex-row ml-4 mr-4 mt-2">
-              <Image className="w-8" src={Data}></Image>
+              <Image className="w-8 ml-2 mr-4 mb-2" src={Data}></Image>
               <p>Lorem ipsum dolor sit amet, consectetur.</p>
             </div>
             <div className="flex flex-row ml-4 mr-4 mt-2">
-              <Image className="w-8" src={Build}></Image>
+              <Image className="w-8 ml-2 mr-4 mb-2" src={Build}></Image>
               <p>Lorem ipsum dolor sit amet, consectetur.</p>
             </div>
           </div>
           <hr />
-          <div className=" m-4 ml-32">
+          <div className=" m-4 ml-32 items-center">
             <button className="bg-[#FFC727] hover:bg-green-600 text-white rounded-full px-4 py-2  font-bold">
               Preview
             </button>

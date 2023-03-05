@@ -9,16 +9,16 @@ const Footer = () => {
   return (
     <>
        <footer className="bg-[#1E2B5E] text-white">
-      <div className="container mx-auto py-6 px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container  mx-auto py-6 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 place-content-around">
           <div>
             <h1 className="text-xl font-semibold text-white mb-2">JPCourse </h1>
             <h2 className='text-md font-semibold text-white mb-2 mt-2'>We make you speak.</h2>
             <p className="text-sm" href='contact@jpcourse.com'>Contact us at contact@jpcourse.com</p>
             
           </div>
-          
-          <div>
+          <div className='flex flex-row place-content-around'>
+          <div className='place-content-around'>
             <h3 className="text-xl font-semibold text-[#EFCB27] mb-2">Resources</h3>
             <ul className="text-sm">
               <li><a href="#" className="hover:text-white">Documentation</a></li>
@@ -26,7 +26,8 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white">Community</a></li>
             </ul>
           </div>
-          <div>
+
+          <div >
             <h3 className="text-xl font-semibold text-[#EFCB27] mb-2">Legal</h3>
             <ul className="text-sm">
               <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
@@ -34,8 +35,8 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white">License</a></li>
             </ul>
           </div>
-          
-          <div>
+          </div>
+          <div className='place-content-around'>
             <h3 className="text-xl font-semibold text-[#EFCB27] mb-2">Connect</h3>
             <ul className="text-sm">
               <li><a href="#" className="hover:text-white">Facebook</a></li>
@@ -43,6 +44,8 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white">Instagram</a></li>
             </ul>
           </div>
+       
+
         </div>
         <div class="items-left justify-center space-y-2 sm:flex md:flex-row sm:space-y-0 sm:space-x-4 mt-10">
         <a href="#" class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
