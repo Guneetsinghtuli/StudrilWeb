@@ -27,7 +27,6 @@ export default function Home() {
       <FeatureM />
       {/* <Id /> */}
       <Table />
-      
       <Upfooter />
       <Footer />
     </div>

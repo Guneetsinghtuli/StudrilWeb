@@ -2,14 +2,18 @@ import React from "react";
 import Send from '../assets/Send.png'
 import Copy from '../assets/Icon.png'
 import Head from 'next/head'
-import Image from 'next/image'
-import { Poppins } from "@next/font/google";
-import styles from '@/styles/Home.module.css'
+
 import {FaPaperPlane} from 'react-icons/fa'
+import Cloud from '../assets/Union.png'
+import Image from "next/image";
 
 const upfooter = () => {
   return (
-    <div className="bg-[#F8F9FC] mt-28">
+    <div className=" relative bg-[#F8F9FC] mt-28">
+    <div className="absolute top-[-100px] -z-50">
+    <Image src={Cloud} alt="hh" className=" w-full h-100 "/>
+    </div>
+    
       <div className="container mx-auto ">
         <div className="flex flex-col md:flex-col items-center">
           <div className="">
