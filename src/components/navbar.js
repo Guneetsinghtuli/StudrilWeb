@@ -9,10 +9,10 @@ import Logo from '../assets/logo.png'
 export default function Navbar() {
   return (
      <>
-<div class="max-w-2xl mx-auto">
+<div class="max-w-2xl mx-auto ">
     
     <nav class="border-gray-200">
-    <div class="container mx-auto flex flex-wrap items-center justify-between mt-4">
+    <div class="container mx-auto flex flex-wrap items-center justify-between m-4 px-8">
         <a href="#" class="flex mt-2">
             <span class="self-center text-lg font-semibold whitespace-nowrap"><Image src={Logo}></Image></span>
         </a>
@@ -24,16 +24,16 @@ export default function Navbar() {
         <div class="hidden md:block w-full md:w-auto" id="mobile-menu">
         <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
             <li>
-            <a href="#" class="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-blue-700 md:p-0 rounded focus:outline-none" aria-current="page">Home</a>
+            <a href="#" class="bg-transparent  block pl-3 pr-4 py-2 md:text-blue-700 md:p-0 rounded focus:outline-none" aria-current="page">Home</a>
             </li>
             <li>
-            <a href="#" class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Services</a>
+            <a href="#" class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Testimonies</a>
             </li>
             <li>
-            <a href="#" class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Pricing</a>
+            <a href="#" class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Features</a>
             </li>
             <li>
-            <a href="#" class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Contact</a>
+            <a href="#" class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Why Studrill</a>
             </li>
         </ul>
         </div>
