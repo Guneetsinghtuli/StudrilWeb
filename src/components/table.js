@@ -4,10 +4,10 @@ export default function Table() {
     <>
       <section className="mt-10 mb-24">
         <div>
-          <p className="text-left ml-8 text-xl font-poppins  text-[#56647A] ">
+          <p className="text-left md:ml-8 ml-4 text-xl font-poppins  text-[#56647A] ">
             Here's Why{" "}
           </p>
-          <h1 className="font-bold font-montserrat ml-8 mb-4 text-[#1E2B5E]     text-5xl pt-100">
+          <h1 className="font-bold font-montserrat md:ml-8 ml-4 mb-4 text-[#1E2B5E] md:text-5xl text-[33px] pt-100">
             You Need
             <br /> Studrill So Much
           </h1>

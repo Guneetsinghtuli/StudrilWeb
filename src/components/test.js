@@ -36,10 +36,10 @@ const ThreeCardCarousel = () => {
       </div>
       <div className=" bg-[#EFCB27]">
         <div className="">
-          <h1 className="text-center font-montserrat  font-bold mb-4 text-[#1E2B5E]  text-2xl pt-100 px-4 py-2 ">
+          <h1 className="text-center font-montserrat font-bold mb-4 text-[#1E2B5E] text-xl md:text-2xl pt-100 px-4 py-2 ">
           Like a different person. Feel the difference with StuDrill
           </h1>
-          <h2 className="text-center font-poppins text-base mb-4 text-[#1E2B5E] px-4  ">
+          <h2 className="text-center leading-5 font-poppins text-base mb-4 text-[13px] text-[#1E2B5E] px-4  ">
           In a short time, many foreigners/ Japanese learners can speak and express themselves in Japanese unconsciously. Smoother (shorter time too), better vocabulary words & spoken grammar patterns, and more confidence!
           </h2>
         </div>
