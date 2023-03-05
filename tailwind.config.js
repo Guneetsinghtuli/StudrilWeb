@@ -15,7 +15,7 @@ module.exports = {
   theme: {
     fontSize: {
       sm: "0.8rem",
-      base: "1.2rem",
+      base: "0.9rem",
       xl: "1.4rem",
       "2xl": "2.600rem",
       "3xl": "1.33rem",
@@ -37,5 +37,15 @@ module.exports = {
         primary: "#1E2B5E",
       },
     },
+    borderRadius: {
+      'none': '0',
+      'sm': '0.125rem',
+      DEFAULT: '0.25rem',
+      DEFAULT: '4px',
+      'md': '0.375rem',
+      'lg': '4rem',
+      'full': '9999px',
+      'large': '12px',
+    }
   },
 };
