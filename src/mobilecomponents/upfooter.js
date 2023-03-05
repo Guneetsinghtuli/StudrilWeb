@@ -1,7 +1,4 @@
 import React from "react";
-import Send from '../assets/Send.png'
-import Copy from '../assets/Icon.png'
-import Head from 'next/head'
 
 import {FaPaperPlane} from 'react-icons/fa'
 import Cloud from '../assets/Union.png'
@@ -9,7 +6,7 @@ import Image from "next/image";
 
 const upfooter = () => {
   return (
-    <div className=" relative bg-[#F8F9FC] mt-28">
+    <div className=" relative bg-[#F8F9FC] mt-36">
     <div className="absolute top-[-100px] -z-50">
     <Image src={Cloud} alt="hh" className=" w-full h-100 "/>
     </div>
@@ -36,7 +33,7 @@ const upfooter = () => {
                   class="placeholder-[#1E2B5E] text-center w-9/12 font-poppins border-[#1E2B5E] text-[#1E2B5E] border-2 rounded-lg px-3 py-4"
                 />
               </div>
-              <div class=" justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4">
+              <div class=" justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4 container mx-auto">
                 <button className="bg-[#EFCB27] w-8/12 font-poppins text-[#1E2B5E] text-lg font-bold px-8 py-4 rounded-lg">
                 Share to your friends to get <br/>
                 FRESH MONEY up to ¥100,000!
