@@ -11,8 +11,8 @@ export default function Table() {
       <>
       <section className='mt-10'>
       <div>
-        <h1 className='text-center font-bold mb-4 text-[#1E2B5E]     text-2xl pt-100'>How will Jp Course change <br/> your life?</h1>
-        <h2 className='text-center text-xl font-bold mb-4 text-[#1E2B5E]     '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</h2>
+      <p className='text-left ml-8 text-xl font-poppins  text-[#56647A] '>Here's Why </p>
+        <h1 className='font-bold font-montserrat ml-8 mb-4 text-[#1E2B5E]     text-5xl pt-100'>You Need< br/> Studrill So Much</h1>
        </div>
        <div className="w-full border-{#1E2B5E} ">
       <div className="flex flex-col md:flex-row w-full p-4 border-{#1E2B5E}">

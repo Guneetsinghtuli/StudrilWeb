@@ -34,17 +34,16 @@ const ThreeCardCarousel = () => {
           </svg>
         </div>
       </div>
-      <div className=" bg-[#e1b53e]">
+      <div className=" bg-[#EFCB27]">
         <div className="">
-          <h1 className="text-center   font-bold mb-4 text-[#1E2B5E]  text-2xl pt-100 px-4 py-2 ">
-            Which one are you?
+          <h1 className="text-center font-montserrat  font-bold mb-4 text-[#1E2B5E]  text-2xl pt-100 px-4 py-2 ">
+          Like a different person. Feel the difference with StuDrill
           </h1>
-          <h2 className="text-center text-3xl font-bold mb-4 text-[#1E2B5E]     px-4  ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis.
+          <h2 className="text-center font-poppins text-base mb-4 text-[#1E2B5E] px-4  ">
+          In a short time, many foreigners/ Japanese learners can speak and express themselves in Japanese unconsciously. Smoother (shorter time too), better vocabulary words & spoken grammar patterns, and more confidence!
           </h2>
         </div>
-        <div className="flex flex-col md:flex-col p-8  m-4 justify-around">
+        <div className="flex flex-col md:flex-col p-8  justify-around">
           <Slider {...settings}>
           <div className="bg-white w-90 rounded-xl shadow-xl m-4 mb-20">
             <div className="flex flex-row m-4">

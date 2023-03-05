@@ -23,9 +23,11 @@ export default function Home() {
       {/* <Navbar /> */}
       <MainM />
       <Test />
-      <Id />
-      <Table />
+      <div class="h-20 bg-gradient-to-b from-[#EFCB27] to-[#F8F9FC]"></div>
       <FeatureM />
+      {/* <Id /> */}
+      <Table />
+      
       <Upfooter />
       <Footer />
     </div>
