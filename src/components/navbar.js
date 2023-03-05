@@ -15,7 +15,7 @@ export default function Navbar() {
                  <div className='ml-100'>
                    <Image class='w-25 py-5 px-5' src={Logo}></Image>
                  </div>
-                <div className='nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5 '>
+                <div className='nav-links duration-500 static absolute bg-white min-h-fit min-h-[60vh] left-0 top-[-100%] w-auto  w-full flex items-center px-5 '>
                   <ul className='flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8'>
                     <li>
                       <a className='hover:text-grey-500' href='home.js'>Home</a>

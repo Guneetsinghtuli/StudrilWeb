@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <div className="md:ml-96 md:mr-96">
-      {/* <Navbar /> */}
+      <Navbar />
       <MainM />
       <Test />
       <Id />
