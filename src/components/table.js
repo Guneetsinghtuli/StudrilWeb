@@ -13,7 +13,7 @@ export default function Table() {
           </h1>
         </div>
 
-        <div className="overflow-x-scroll">
+        <div className="overflow-x-scroll m-4 md:m-0">
           <table className="w-max">
             <tbody className="w-9/12">
               <tr className="bg-[#1E2B5E] p-8">
@@ -25,37 +25,37 @@ export default function Table() {
                 </th>
               </tr>
               <tr>
-                <td className="border border-4 border-[#1E2B5E] p-5 text-[#1E2B5E] font-poppins">
-                  If you’re only learning from language schools and University…
+                <td className="border border-4 border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
+                  If you’re only learning from language schools and<br/> University…
                 </td>
-                <td className="border border-4 border-[#1E2B5E] p-5 text-[#1E2B5E] font-poppins">
+                <td className="border border-4 border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
                   They focus too much on finishing the JLPT workbook. You will <br/>
                   get to speak in the last 10 minutes of the class. <br />
                 </td>
               </tr>
               <tr>
-                <td className="border border-4 border-[#1E2B5E] p-5 text-[#1E2B5E] font-poppins">
+                <td className="border border-4 border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
                   If you’re only learning from conversation books…
                 </td>
-                <td className="border border-4 border-[#1E2B5E] p-5 text-[#1E2B5E] font-poppins">
+                <td className="border border-4 border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
                   They make you memorize the dialogues for a day and then forget <br/>
                   them the next day.
                 </td>
               </tr>
               <tr>
-                <td className=" border border-4 border-[#1E2B5E] p-5 text-[#1E2B5E] font-poppins">
+                <td className=" border border-4 border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
                   If you’re only learning from TVs and movies...
                 </td>
-                <td className="border border-4 border-[#1E2B5E] p-5 text-[#1E2B5E] font-poppins">
+                <td className="border border-4 border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
                   They help you acquire 2-3 new phrases, might be less or zero <br/>
                   if you are not an advanced learner.
                 </td>
               </tr>
               <tr>
-                <td className="border border-4 border-[#1E2B5E] p-5 text-[#1E2B5E] font-poppins">
+                <td className="border border-4 border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
                   If you’re only learning from Japanese friends…
                 </td>
-                <td className=" border border-4 border-[#1E2B5E] p-5 text-[#1E2B5E] font-poppins">
+                <td className=" border border-4 border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
                   They are just dreams (it’s impossible). If you do have one, <br/>
                   you’re the luckiest.
                 </td>
@@ -64,7 +64,7 @@ export default function Table() {
           </table>
         </div>
 
-        <div className="overflow-x-scroll my-12">
+        <div className="overflow-x-scroll my-12 m-4 md:m-0">
           <table className="w-max">
             <tbody className="w-9/12">
               <tr className="bg-[#1E2B5E] p-8">

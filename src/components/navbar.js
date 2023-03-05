@@ -9,12 +9,13 @@ import Logo from '../assets/logo.png'
 export default function Navbar() {
   return (
      <>
-<div class="max-w-2xl mx-auto ">
+<div class="max-w-2xl mx-auto sticky top-0 bg-white py-1 z-50">
     
     <nav class="border-gray-200">
     <div class="container mx-auto flex flex-wrap items-center justify-between m-4 px-8">
         <a href="#" class="flex mt-2">
-            <span class="self-center text-lg font-semibold whitespace-nowrap"><Image src={Logo}></Image></span>
+            {/* <span class="self-center text-lg font-semibold whitespace-nowrap"><Image src={Logo}></Image></span>  */}
+            <p className='font-montserrat font-bold text-[20px] text-[#1E2B5E]'>Studrill</p>
         </a>
         <button data-collapse-toggle="mobile-menu" type="button" class="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center" aria-controls="mobile-menu-2" aria-expanded="false">
         <span class="sr-only">Open main menu</span>

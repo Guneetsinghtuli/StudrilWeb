@@ -11,7 +11,7 @@ const upfooter = () => {
     <Image src={Cloud} alt="hh" className=" w-full h-100 "/>
     </div>
     
-      <div className="container mx-auto ">
+      <div className="container mx-auto z-5">
         <div className="flex flex-col md:flex-col items-center">
           <div className="">
           <div className="md:p-10 p-5 pb-4">
