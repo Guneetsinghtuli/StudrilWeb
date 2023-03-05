@@ -59,7 +59,7 @@ const ThreeCardCarousel = () => {
                   <h2 className="text-base text-center font-bold mb-4 text-white bg-[#1E2B5E] mb-4">
                     Texbook only
                   </h2>
-                  <div className=" mb-2 px-12 py-5">
+                  <div className=" px-12 py-5">
                     <Image className="w-28" src={Video1}></Image>
                   </div>
 
@@ -67,21 +67,21 @@ const ThreeCardCarousel = () => {
                     Play
                   </h2>
                 </div>
-                <div className="bg-white rounded-xl shadow-xl   border-4 border-[#FFC727] ml-2">
-                  <h2 className="text-base text-center font-bold text-[#1E2B5E]  bg-[#ffe680] ">
+                <div className="bg-white rounded-xl shadow-xl   border-4 border-[#FFC727] r-0 mr-2">
+                  <h2 className="text-base text-center font-bold mb-4 text-[#1E2B5E] bg-[#FFC727] mb-4">
                   Studrill with textbook
                   </h2>
-                  <div className=" mb-2 px-12 py-5">
+                  <div className=" px-12 py-5">
                     <Image className="w-28" src={Video1}></Image>
                   </div>
 
-                  <h2 className="text-3xl text-center font-bold text-[#FFC727]">
+                  <h2 className="text-3xl text-center text-[#1E2B5E] font-bold ">
                     Play
                   </h2>
                 </div>
               </div>
             </div>
-            <hr className="m-10 text-bold"/>
+            <hr className="m-2 text-bold"/>
             <div className="flex flex-col mr-10 ml-10 mt-10 mb-20 text-center">
               <p className="text-3xl">I Love JapanDidn't you say you come from Hawaii?</p>
               <p className="text-3xl">ハワイ出身って言ってたよね。</p>
@@ -103,7 +103,7 @@ const ThreeCardCarousel = () => {
                   <h2 className="text-base text-center font-bold mb-4 text-white bg-[#1E2B5E] mb-4">
                     Texbook only
                   </h2>
-                  <div className=" mb-2 px-12 py-5">
+                  <div className=" px-12 py-5">
                     <Image className="w-28" src={Video1}></Image>
                   </div>
 
@@ -111,21 +111,21 @@ const ThreeCardCarousel = () => {
                     Play
                   </h2>
                 </div>
-                <div className="bg-white rounded-xl shadow-xl   border-4 border-[#FFC727] ml-2">
-                  <h2 className="text-base text-center font-bold text-[#1E2B5E]  bg-[#ffe680] ">
+                <div className="bg-white rounded-xl shadow-xl   border-4 border-[#FFC727] r-0 mr-2">
+                  <h2 className="text-base text-center font-bold mb-4 text-[#1E2B5E] bg-[#FFC727] mb-4">
                   Studrill with textbook
                   </h2>
-                  <div className=" mb-2 px-12 py-5">
+                  <div className=" px-12 py-5">
                     <Image className="w-28" src={Video1}></Image>
                   </div>
 
-                  <h2 className="text-3xl text-center font-bold text-[#FFC727]">
+                  <h2 className="text-3xl text-center text-[#1E2B5E] font-bold ">
                     Play
                   </h2>
                 </div>
               </div>
             </div>
-            <hr className="m-10 text-bold"/>
+            <hr className="m-2 text-bold"/>
             <div className="flex flex-col mr-10 ml-10 mt-10 mb-20 text-center">
               <p className="text-3xl">I Love JapanDidn't you say you come from Hawaii?</p>
               <p className="text-3xl">ハワイ出身って言ってたよね。</p>
@@ -147,7 +147,7 @@ const ThreeCardCarousel = () => {
                   <h2 className="text-base text-center font-bold mb-4 text-white bg-[#1E2B5E] mb-4">
                     Texbook only
                   </h2>
-                  <div className=" mb-2 px-12 py-5">
+                  <div className=" px-12 py-5">
                     <Image className="w-28" src={Video1}></Image>
                   </div>
 
@@ -155,21 +155,21 @@ const ThreeCardCarousel = () => {
                     Play
                   </h2>
                 </div>
-                <div className="bg-white rounded-xl shadow-xl   border-4 border-[#FFC727] ml-2">
-                  <h2 className="text-base text-center font-bold text-[#1E2B5E]  bg-[#ffe680] ">
+                <div className="bg-white rounded-xl shadow-xl   border-4 border-[#FFC727] r-0 mr-2">
+                  <h2 className="text-base text-center font-bold mb-4 text-[#1E2B5E] bg-[#FFC727] mb-4">
                   Studrill with textbook
                   </h2>
-                  <div className=" mb-2 px-12 py-5">
+                  <div className=" px-12 py-5">
                     <Image className="w-28" src={Video1}></Image>
                   </div>
 
-                  <h2 className="text-3xl text-center font-bold text-[#FFC727]">
+                  <h2 className="text-3xl text-center text-[#1E2B5E] font-bold ">
                     Play
                   </h2>
                 </div>
               </div>
             </div>
-            <hr className="m-10 text-bold"/>
+            <hr className="m-2 text-bold"/>
             <div className="flex flex-col mr-10 ml-10 mt-10 mb-20 text-center">
               <p className="text-3xl">I Love JapanDidn't you say you come from Hawaii?</p>
               <p className="text-3xl">ハワイ出身って言ってたよね。</p>
