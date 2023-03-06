@@ -13,7 +13,7 @@ export default function Table() {
           </h1>
         </div>
 
-        <div className="overflow-x-scroll m-4 md:m-0">
+        <div className="overflow-x-scroll m-4 md:mx-0">
           <table className="w-max">
             <tbody className="w-9/12">
               <tr className="bg-[#1E2B5E] p-8">
@@ -64,7 +64,7 @@ export default function Table() {
           </table>
         </div>
 
-        <div className="overflow-x-scroll my-12 m-4 md:m-0">
+        <div className="overflow-x-scroll my-12 m-4 md:mx-0">
           <table className="w-max">
             <tbody className="w-9/12">
               <tr className="bg-[#1E2B5E] p-8">
