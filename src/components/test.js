@@ -45,13 +45,13 @@ const ThreeCardCarousel = () => {
               </h2>
             </div>
 
-            <div className="text-4xl font-bold text-green-500 mb-8 px-16 py-5">
+            <div className="text-4xl font-bold text-green-500 mb-4 px-16 py-5">
               <div className="flex flex-row justify-around">
                 <div className="bg-white rounded-xl shadow-xl   border-4 border-[#1E2B5E] r-0 mr-2">
-                  <h2 className="text-base text-center font-bold mb-4 text-white bg-[#1E2B5E] mb-4">
-                    Texbook only
+                  <h2 className="text-sm text-center font-bold mb-4 text-white bg-[#1E2B5E] mb-4">
+                    Texbook <br/> only
                   </h2>
-                  <div className=" px-12 py-5">
+                  <div className=" px-10 md:px-8 py-2">
                     <Image className="w-28" src={Video1}></Image>
                   </div>
 
@@ -60,10 +60,10 @@ const ThreeCardCarousel = () => {
                   </h2>
                 </div>
                 <div className="bg-white rounded-xl shadow-xl   border-4 border-[#FFC727] r-0 mr-2">
-                  <h2 className="text-base text-center font-bold mb-4 text-[#1E2B5E] bg-[#FFC727] mb-4">
-                  Studrill with textbook
+                  <h2 className="text-sm text-center font-bold mb-4 text-[#1E2B5E] bg-[#FFC727] mb-4">
+                  Studrill with <br/>textbook
                   </h2>
-                  <div className=" px-12 py-5">
+                  <div className=" px-10 md:px-8 py-2">
                     <Image className="w-28" src={Video1}></Image>
                   </div>
 
@@ -74,10 +74,10 @@ const ThreeCardCarousel = () => {
               </div>
             </div>
             <hr className="m-2 text-bold"/>
-            <div className="flex flex-col mr-10 ml-10 mt-10 mb-20 text-center">
-              <p className="text-3xl font-medium	text-[#1E2B5E] m-2">I Love JapanDidn't you say you come from Hawaii?</p>
-              <p className="text-3xl font-medium	text-[#1E2B5E] m-2">ハワイ出身って言ってたよね。</p>
-              <p className="text-3xl font-medium	text-[#1E2B5E] m-2">Hawai shusshin tte itteta yo ne.</p>
+            <div className="flex flex-col mr-4 ml-4 mt-2 mb-10 text-center">
+              <p className="text-4xl font-medium	text-[#1E2B5E] m-2">I Love JapanDidn't you say you come from Hawaii?</p>
+              <p className="text-4xl font-medium	text-[#1E2B5E] m-2">ハワイ出身って言ってたよね。</p>
+              <p className="text-4xl font-medium	text-[#1E2B5E] m-2">Hawai shusshin tte itteta yo ne.</p>
             </div>
           </div>
 
