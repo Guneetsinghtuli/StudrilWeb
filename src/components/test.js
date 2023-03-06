@@ -43,9 +43,9 @@ const ThreeCardCarousel = () => {
           In a short time, many foreigners/ Japanese learners can speak and express themselves in Japanese unconsciously. Smoother (shorter time too), better vocabulary words & spoken grammar patterns, and more confidence!
           </h2>
         </div>
-        <div className="flex flex-col md:flex-col p-8  justify-around">
+        <div className="flex flex-col md:flex-col p-8 m-4  justify-around">
           <Slider {...settings}>
-          <div className="bg-white w-90 rounded-lg shadow-xl m-4 mb-20">
+          <div className="bg-white w-85 rounded-lg shadow-xl  mb-20">
             <div className="  m-4">
           
               <h2 className="text-xl text-[#1E2B5E] text-center font-bold mb-4  mb-4 ml-6 mt-4">
@@ -89,7 +89,7 @@ const ThreeCardCarousel = () => {
             </div>
           </div>
 
-          <div className="bg-white w-90 rounded-lg shadow-xl m-4 mb-20">
+          <div className="bg-white w-85 rounded-lg shadow-xl  mb-20">
             <div className="  m-4">
           
               <h2 className="text-xl text-[#1E2B5E] text-center font-bold mb-4  mb-4 ml-6 mt-4">
@@ -133,7 +133,7 @@ const ThreeCardCarousel = () => {
             </div>
           </div>
 
-          <div className="bg-white w-90 rounded-lg shadow-xl m-4 mb-20">
+          <div className="bg-white w-85 rounded-lg shadow-xl  mb-20">
             <div className="  m-4">
           
               <h2 className="text-xl text-[#1E2B5E] text-center font-bold mb-4  mb-4 ml-6 mt-4">
