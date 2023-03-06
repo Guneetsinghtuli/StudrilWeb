@@ -25,14 +25,6 @@ const ThreeCardCarousel = () => {
   return (
     <section className="mt-10 ">
       <div class="relative">
-        {/* <div class="bottom-0 left-0 right-0 h-22">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="2 0 1440 320">
-            <path
-              class="fill-current text-yellow-500"
-              d="M0,160L60,149.3C120,139,240,117,360,138.7C480,160,600,224,720,240C840,256,960,224,1080,197.3C1200,171,1320,149,1380,138.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-            ></path>
-          </svg>
-        </div> */}
       </div>
       <div className=" bg-[#EFCB27] pt-10">
         <div className="">
@@ -83,9 +75,9 @@ const ThreeCardCarousel = () => {
             </div>
             <hr className="m-2 text-bold"/>
             <div className="flex flex-col mr-10 ml-10 mt-10 mb-20 text-center">
-              <p className="text-3xl">I Love JapanDidn't you say you come from Hawaii?</p>
-              <p className="text-3xl">ハワイ出身って言ってたよね。</p>
-              <p className="text-3xl">Hawai shusshin tte itteta yo ne.</p>
+              <p className="text-3xl font-medium	text-[#1E2B5E] m-2">I Love JapanDidn't you say you come from Hawaii?</p>
+              <p className="text-3xl font-medium	text-[#1E2B5E] m-2">ハワイ出身って言ってたよね。</p>
+              <p className="text-3xl font-medium	text-[#1E2B5E] m-2">Hawai shusshin tte itteta yo ne.</p>
             </div>
           </div>
 
@@ -127,9 +119,9 @@ const ThreeCardCarousel = () => {
             </div>
             <hr className="m-2 text-bold"/>
             <div className="flex flex-col mr-10 ml-10 mt-10 mb-20 text-center">
-              <p className="text-3xl">I Love JapanDidn't you say you come from Hawaii?</p>
-              <p className="text-3xl">ハワイ出身って言ってたよね。</p>
-              <p className="text-3xl">Hawai shusshin tte itteta yo ne.</p>
+              <p className="text-3xl font-medium	text-[#1E2B5E] m-2">I Love JapanDidn't you say you come from Hawaii?</p>
+              <p className="text-3xl font-medium	text-[#1E2B5E] m-2">ハワイ出身って言ってたよね。</p>
+              <p className="text-3xl font-medium	text-[#1E2B5E] m-2">Hawai shusshin tte itteta yo ne.</p>
             </div>
           </div>
 
@@ -171,9 +163,9 @@ const ThreeCardCarousel = () => {
             </div>
             <hr className="m-2 text-bold"/>
             <div className="flex flex-col mr-10 ml-10 mt-10 mb-20 text-center">
-              <p className="text-3xl">I Love JapanDidn't you say you come from Hawaii?</p>
-              <p className="text-3xl">ハワイ出身って言ってたよね。</p>
-              <p className="text-3xl">Hawai shusshin tte itteta yo ne.</p>
+              <p className="text-3xl font-medium	text-[#1E2B5E] m-2">I Love JapanDidn't you say you come from Hawaii?</p>
+              <p className="text-3xl font-medium	text-[#1E2B5E] m-2">ハワイ出身って言ってたよね。</p>
+              <p className="text-3xl font-medium	text-[#1E2B5E] m-2">Hawai shusshin tte itteta yo ne.</p>
             </div>
           </div>
           </Slider>

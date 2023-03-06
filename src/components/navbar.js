@@ -25,7 +25,7 @@ export default function Navbar() {
         <div class="hidden md:block w-full md:w-auto" id="mobile-menu">
         <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
             <li>
-            <a href="#" class="bg-transparent  block pl-3 pr-4 py-2 md:text-blue-700 md:p-0 rounded focus:outline-none" aria-current="page">Home</a>
+            <a href="#home" class="bg-transparent  block pl-3 pr-4 py-2 md:text-blue-700 md:p-0 rounded focus:outline-none" aria-current="page">Home</a>
             </li>
             <li>
             <a href="#" class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Testimonies</a>
