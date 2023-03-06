@@ -8,9 +8,9 @@ import Google from '../assets/google.png'
 const Footer = () => {
   return (
     <>
-       <footer className="bg-[#1E2B5E] text-white h-64 ">
+       <footer className="bg-[#1E2B5E] text-white ">
       <div className=" h-full container flex  mx-auto py-6 px-4">
-        <div className=" w-full h-full flex justify-between items-center place-content-around">
+        <div className=" w-full h-full flex flex-wrap justify-between items-center place-content-around">
           <div>
             <h1 className="text-4xl font-montserrat font-bold text-white mb-2">Studrill </h1>
             <h2 className='text-xl  font-poppins  text-white mb-2 mt-2'>We make you speak.</h2>

@@ -19,11 +19,11 @@ const main = () => {
               />
             </div>
             <div className="">
-              <h2 className="text-2xl font-poppins font-bold text-[#1E2B5E] text-center">
+              <h2 className="md:text-2xl text-[24px] font-poppins font-bold text-[#1E2B5E] text-center">
               You deserve to speak Japanese better.
               </h2>
               <div className="p-4">
-                <p className="text-xl mb-4 text-[#1E2B5E] font-normal font-poppins text-center">
+                <p className="md:text-xl text-[14px] mb-4 text-[#1E2B5E] font-normal font-poppins text-center">
                 Studrill is an all-in-one speaking app where you can learn to express yourself & get feedback, listen to Native Japanese, and converse in natural Japanese.
                 </p>
               </div>
@@ -33,10 +33,10 @@ const main = () => {
                   justify-center
                   type="email"
                   placeholder="Enter email address and share to your friends"
-                  class="placeholder-[#1E2B5E] border-2 border-[#1E2B5E] text-[#1E2B5E] border-2 font-poppins rounded-lg px-10 py-4"
+                  class="placeholder-[#1E2B5E]  border-2 border-[#1E2B5E] text-[13px] md:text-[15px] text-[#1E2B5E] border-2 font-poppins rounded-lg md:px-10 px-5 py-4"
                 />
               </div>
-              <div class="items-left justify-center space-y-6 sm:flex sm:space-y-0 sm:space-x-4 mt-4 w-9/12">
+              <div class="items-left justify-center space-y-6 sm:flex sm:space-y-0 sm:space-x-4 mt-4 md:w-9/12 w-full">
                 <button className="bg-[#EFCB27] w-full text-[16px] text-[#1E2B5E] font-bold font-poppins px-2 py-4 rounded-lg">
                 Share to your friends to get <br /> FRESH MONEY up to ¥100,000!
                 </button>

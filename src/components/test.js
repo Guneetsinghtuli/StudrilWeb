@@ -23,23 +23,23 @@ const ThreeCardCarousel = () => {
   };
 
   return (
-    <section>
+    <section className="mt-10 ">
       <div class="relative">
-        <div class="bottom-0 left-0 right-0 h-22">
+        {/* <div class="bottom-0 left-0 right-0 h-22">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="2 0 1440 320">
             <path
               class="fill-current text-yellow-500"
               d="M0,160L60,149.3C120,139,240,117,360,138.7C480,160,600,224,720,240C840,256,960,224,1080,197.3C1200,171,1320,149,1380,138.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
             ></path>
           </svg>
-        </div>
+        </div> */}
       </div>
-      <div className=" bg-[#EFCB27]">
+      <div className=" bg-[#EFCB27] pt-10">
         <div className="">
-          <h1 className="text-center font-montserrat  font-bold mb-4 text-[#1E2B5E]  text-2xl pt-100 px-4 py-2 ">
+          <h1 className="text-center font-montserrat font-bold mb-4 text-[#1E2B5E] text-xl md:text-[2rem] pt-100 px-4  py-2 ">
           Like a different person. Feel the difference with StuDrill
           </h1>
-          <h2 className="text-center font-poppins text-base mb-4 text-[#1E2B5E] px-4  ">
+          <h2 className="text-center md:leading-7 leading-5 font-poppins text-base mb-4 text-[13px] text-[#1E2B5E] px-4  ">
           In a short time, many foreigners/ Japanese learners can speak and express themselves in Japanese unconsciously. Smoother (shorter time too), better vocabulary words & spoken grammar patterns, and more confidence!
           </h2>
         </div>
