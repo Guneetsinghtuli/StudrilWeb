@@ -42,7 +42,7 @@ const ThreeCardCarousel = () => {
             <div className="text-4xl mb-4 md:px-16 px-5 py-5">
               <div className="flex flex-row justify-around">
                 <div className="bg-white w-6/12 rounded-xl    border-0 r-0 mr-2">
-                  <h2 className="text-sm p-3 text-center font-poppins font-[600] text-white bg-[#1E2B5E] rounded-t-md mb-4">
+                  <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600] text-white bg-[#1E2B5E] rounded-t-md mb-4">
                     Texbook only
                   </h2>
                   <div className="w-full flex justify-center items-center">
@@ -58,7 +58,7 @@ const ThreeCardCarousel = () => {
                   </h2>
                 </div>
                 <div className="bg-white w-6/12 rounded-xl border-0 r-0 mr-2">
-                  <h2 className="text-sm p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
+                  <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
                     Studrill with textbook
                   </h2>
                   <div className="w-full flex justify-center items-center">
@@ -97,7 +97,7 @@ const ThreeCardCarousel = () => {
             <div className="text-4xl mb-4 md:px-16 px-5 py-5">
               <div className="flex flex-row justify-around">
                 <div className="bg-white w-6/12 rounded-xl    border-0 r-0 mr-2">
-                  <h2 className="text-sm p-3 text-center font-poppins font-[600] text-white bg-[#1E2B5E] rounded-t-md mb-4">
+                  <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600] text-white bg-[#1E2B5E] rounded-t-md mb-4">
                     Texbook only
                   </h2>
                   <div className="w-full flex justify-center items-center">
@@ -113,7 +113,7 @@ const ThreeCardCarousel = () => {
                   </h2>
                 </div>
                 <div className="bg-white w-6/12 rounded-xl border-0 r-0 mr-2">
-                  <h2 className="text-sm p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
+                  <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
                     Studrill with textbook
                   </h2>
                   <div className="w-full flex justify-center items-center">
@@ -152,7 +152,7 @@ const ThreeCardCarousel = () => {
             <div className="text-4xl mb-4 md:px-16 px-5 py-5">
               <div className="flex flex-row justify-around">
                 <div className="bg-white w-6/12 rounded-xl    border-0 r-0 mr-2">
-                  <h2 className="text-sm p-3 text-center font-poppins font-[600] text-white bg-[#1E2B5E] rounded-t-md mb-4">
+                  <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600] text-white bg-[#1E2B5E] rounded-t-md mb-4">
                     Texbook only
                   </h2>
                   <div className="w-full flex justify-center items-center">
@@ -168,7 +168,7 @@ const ThreeCardCarousel = () => {
                   </h2>
                 </div>
                 <div className="bg-white w-6/12 rounded-xl border-0 r-0 mr-2">
-                  <h2 className="text-sm p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
+                  <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
                     Studrill with textbook
                   </h2>
                   <div className="w-full flex justify-center items-center">

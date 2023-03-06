@@ -1,3 +1,10 @@
 .slick-slide {
     padding: 10px 15px !important;
   }
+
+  .slick-prev{
+    display: none !important;
+  }
+  .slick-next{
+    display: none !important;
+  }
