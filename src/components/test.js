@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { BsPlayCircle } from "react-icons/bs";
+import { BsPlayCircle,BsPauseCircle } from "react-icons/bs";
 
 
 const ThreeCardCarousel = () => {
@@ -14,6 +14,78 @@ const ThreeCardCarousel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
+
+  const [audio1, setAudio1] = useState({
+    audio:"",
+    isPlaying: false,
+  });
+  const [audio2, setAudio2] = useState({
+    audio:"",
+    isPlaying: false,
+  });
+  const [audio3, setAudio3] = useState({
+    audio:"",
+    isPlaying: false,
+
+  });
+  const [audio4, setAudio4] = useState({
+    audio:"",
+    isPlaying: false,
+  });
+  const [audio5, setAudio5] = useState({
+    audio:"",
+    isPlaying: false,
+  });
+  const [audio6, setAudio6] = useState({
+    audio:"",
+    isPlaying: false,
+  });
+  const [audio7, setAudio7] = useState({
+    audio:"",
+    isPlaying: false,
+  });
+  const [audio8, setAudio8] = useState({
+    audio:"",
+    isPlaying: false,
+  });
+  
+
+  useEffect(() => {
+    setAudio1({
+      audio: new Audio("/audio/a/one.mp3"),
+      isPlaying: false,
+    });
+    setAudio2({
+      audio: new Audio("/audio/a/two.mp3"),
+      isPlaying: false,
+    });
+    setAudio3({
+      audio: new Audio("/audio/c/one.mp3"),
+      isPlaying: false,
+    });
+    setAudio4({
+      audio: new Audio("/audio/c/two.mp3"),
+      isPlaying: false,
+    });
+    setAudio5({
+      audio: new Audio("/audio/d/one.mp3"),
+      isPlaying: false,
+    });
+    setAudio6({
+      audio: new Audio("/audio/d/two.mp3"),
+      isPlaying: false,
+    });
+    setAudio7({
+      audio: new Audio("/audio/f/one.mp3"),
+      isPlaying: false,
+    });
+    setAudio8({
+      audio: new Audio("/audio/f/two.mp3"),
+      isPlaying: false,
+    });
+  },[])
+
 
   return (
     <section className="mt-10 ">
@@ -47,7 +119,13 @@ const ThreeCardCarousel = () => {
                   </h2>
                   <div className="w-full flex justify-center items-center">
                   <a className=" px-10 md:px-8 py-2 w-90">
-                    <BsPlayCircle className=" text-[#1E2B5E]" size={40}/>
+                  {
+                    audio1.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio1.audio.pause(); setAudio1({...audio1, isPlaying: !audio1.isPlaying})}}/>
+                  }
+                  {
+                    !audio1.isPlaying && <BsPlayCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio1.audio.play(); setAudio1({...audio1, isPlaying: !audio1.isPlaying})}}/>
+                  }
+                    
                   </a>
 
                   </div>
@@ -63,7 +141,12 @@ const ThreeCardCarousel = () => {
                   </h2>
                   <div className="w-full flex justify-center items-center">
                     <a className=" px-10 md:px-8 py-2  ">
-                      <BsPlayCircle className="text-[#EFCB27]" size={40} />
+                      {
+                    audio2.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio2.audio.pause(); setAudio2({...audio2, isPlaying: !audio2.isPlaying})}}/>
+                      }
+                      {
+                    !audio2.isPlaying && <BsPlayCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio2.audio.play(); setAudio2({...audio2, isPlaying: !audio2.isPlaying})}}/>
+                      }
                     </a>
                   </div>
 
@@ -102,7 +185,12 @@ const ThreeCardCarousel = () => {
                   </h2>
                   <div className="w-full flex justify-center items-center">
                   <a className=" px-10 md:px-8 py-2 w-90">
-                    <BsPlayCircle className=" text-[#1E2B5E]" size={40}/>
+                    {
+                    audio3.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio3.audio.pause(); setAudio3({...audio3, isPlaying: !audio3.isPlaying})}}/>
+                    }
+                    {
+                    !audio3.isPlaying && <BsPlayCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio3.audio.play(); setAudio3({...audio3, isPlaying: !audio3.isPlaying})}}/>
+                    }
                   </a>
 
                   </div>
@@ -118,7 +206,13 @@ const ThreeCardCarousel = () => {
                   </h2>
                   <div className="w-full flex justify-center items-center">
                     <a className=" px-10 md:px-8 py-2  ">
-                      <BsPlayCircle className="text-[#EFCB27]" size={40} />
+                      {
+                    audio4.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio4.audio.pause(); setAudio4({...audio4, isPlaying: !audio4.isPlaying})}}/>
+
+                      }
+                      {
+                    !audio4.isPlaying && <BsPlayCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio4.audio.play(); setAudio4({...audio4, isPlaying: !audio4.isPlaying})}}/>
+                      }
                     </a>
                   </div>
 
@@ -157,7 +251,13 @@ const ThreeCardCarousel = () => {
                   </h2>
                   <div className="w-full flex justify-center items-center">
                   <a className=" px-10 md:px-8 py-2 w-90">
-                    <BsPlayCircle className=" text-[#1E2B5E]" size={40}/>
+                    {
+                    audio5.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio5.audio.pause(); setAudio5({...audio5, isPlaying: !audio5.isPlaying})}}/>
+
+                    }
+                    {
+                    !audio5.isPlaying && <BsPlayCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio5.audio.play(); setAudio5({...audio5, isPlaying: !audio5.isPlaying})}}/>
+                    }
                   </a>
 
                   </div>
@@ -173,7 +273,12 @@ const ThreeCardCarousel = () => {
                   </h2>
                   <div className="w-full flex justify-center items-center">
                     <a className=" px-10 md:px-8 py-2  ">
-                      <BsPlayCircle className="text-[#EFCB27]" size={40} />
+                      {
+                    audio6.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio6.audio.pause(); setAudio6({...audio6, isPlaying: !audio6.isPlaying})}}/>
+                      }
+                      {
+                    !audio6.isPlaying && <BsPlayCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio6.audio.play(); setAudio6({...audio6, isPlaying: !audio6.isPlaying})}}/>
+                      }
                     </a>
                   </div>
 
@@ -212,7 +317,12 @@ const ThreeCardCarousel = () => {
                   </h2>
                   <div className="w-full flex justify-center items-center">
                   <a className=" px-10 md:px-8 py-2 w-90">
-                    <BsPlayCircle className=" text-[#1E2B5E]" size={40}/>
+                    {
+                    audio7.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio7.audio.pause(); setAudio7({...audio7, isPlaying: !audio7.isPlaying})}}/>
+                    }
+                    {
+                    !audio7.isPlaying && <BsPlayCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio7.audio.play(); setAudio7({...audio7, isPlaying: !audio7.isPlaying})}}/>
+                    }
                   </a>
 
                   </div>
@@ -228,7 +338,12 @@ const ThreeCardCarousel = () => {
                   </h2>
                   <div className="w-full flex justify-center items-center">
                     <a className=" px-10 md:px-8 py-2  ">
-                      <BsPlayCircle className="text-[#EFCB27]" size={40} />
+                      {
+                    audio8.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio8.audio.pause(); setAudio8({...audio8, isPlaying: !audio8.isPlaying})}}/>
+                      }
+                      {
+                    !audio8.isPlaying && <BsPlayCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio8.audio.play(); setAudio8({...audio8, isPlaying: !audio8.isPlaying})}}/>
+                      }
                     </a>
                   </div>
 

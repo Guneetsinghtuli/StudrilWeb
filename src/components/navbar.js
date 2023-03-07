@@ -9,7 +9,7 @@ import Logo from '../assets/logo.png'
 export default function Navbar() {
   return (
      <>
-<div class="max-w-2xl sticky top-0 bg-white py-1 z-50">
+<div class="w-full sticky top-0 bg-white py-1 z-50">
     
     <nav class="border-gray-200">
     <div class="container mx-auto flex flex-wrap items-center justify-between m-4 px-8">
