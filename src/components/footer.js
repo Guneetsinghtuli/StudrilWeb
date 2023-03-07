@@ -48,7 +48,7 @@ const Footer = () => {
         <p className="text-white text-sm font-montserrat text-center sm:text-left">
           © 2023 Studrill. All Rights Reserved.
         </p>
-        <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center='true' sm:justify-start">
+        <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
           <Link legacyBehavior href="https://m.facebook.com/studrill.ofcl/">
             <a className="text-[#1E2B5E] text-xl mx-3">
               <FaFacebook />

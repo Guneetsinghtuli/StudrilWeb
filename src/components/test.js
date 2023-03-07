@@ -117,7 +117,7 @@ const ThreeCardCarousel = () => {
                   <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600] text-white bg-[#1E2B5E] rounded-t-md mb-4">
                     Texbook only
                   </h2>
-                  <div className="w-full flex justify-center='true' items-center">
+                  <div className="w-full flex justify-center items-center">
                   <a className=" px-10 md:px-8 py-2 w-90">
                   {
                     audio1.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio1.audio.pause(); setAudio1({...audio1, isPlaying: !audio1.isPlaying})}}/>
@@ -139,7 +139,7 @@ const ThreeCardCarousel = () => {
                   <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
                     Studrill with textbook
                   </h2>
-                  <div className="w-full flex justify-center='true' items-center">
+                  <div className="w-full flex justify-center items-center">
                     <a className=" px-10 md:px-8 py-2  ">
                       {
                     audio2.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio2.audio.pause(); setAudio2({...audio2, isPlaying: !audio2.isPlaying})}}/>
@@ -183,7 +183,7 @@ const ThreeCardCarousel = () => {
                   <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600] text-white bg-[#1E2B5E] rounded-t-md mb-4">
                     Texbook only
                   </h2>
-                  <div className="w-full flex justify-center='true' items-center">
+                  <div className="w-full flex justify-center items-center">
                   <a className=" px-10 md:px-8 py-2 w-90">
                     {
                     audio3.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio3.audio.pause(); setAudio3({...audio3, isPlaying: !audio3.isPlaying})}}/>
@@ -204,7 +204,7 @@ const ThreeCardCarousel = () => {
                   <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
                     Studrill with textbook
                   </h2>
-                  <div className="w-full flex justify-center='true' items-center">
+                  <div className="w-full flex justify-center items-center">
                     <a className=" px-10 md:px-8 py-2  ">
                       {
                     audio4.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio4.audio.pause(); setAudio4({...audio4, isPlaying: !audio4.isPlaying})}}/>
@@ -249,7 +249,7 @@ const ThreeCardCarousel = () => {
                   <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600] text-white bg-[#1E2B5E] rounded-t-md mb-4">
                     Texbook only
                   </h2>
-                  <div className="w-full flex justify-center='true' items-center">
+                  <div className="w-full flex justify-center items-center">
                   <a className=" px-10 md:px-8 py-2 w-90">
                     {
                     audio5.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio5.audio.pause(); setAudio5({...audio5, isPlaying: !audio5.isPlaying})}}/>
@@ -271,7 +271,7 @@ const ThreeCardCarousel = () => {
                   <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
                     Studrill with textbook
                   </h2>
-                  <div className="w-full flex justify-center='true' items-center">
+                  <div className="w-full flex justify-center items-center">
                     <a className=" px-10 md:px-8 py-2  ">
                       {
                     audio6.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio6.audio.pause(); setAudio6({...audio6, isPlaying: !audio6.isPlaying})}}/>
@@ -315,7 +315,7 @@ const ThreeCardCarousel = () => {
                   <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600] text-white bg-[#1E2B5E] rounded-t-md mb-4">
                     Texbook only
                   </h2>
-                  <div className="w-full flex justify-center='true' items-center">
+                  <div className="w-full flex justify-center items-center">
                   <a className=" px-10 md:px-8 py-2 w-90">
                     {
                     audio7.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio7.audio.pause(); setAudio7({...audio7, isPlaying: !audio7.isPlaying})}}/>
@@ -336,7 +336,7 @@ const ThreeCardCarousel = () => {
                   <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
                     Studrill with textbook
                   </h2>
-                  <div className="w-full flex justify-center='true' items-center">
+                  <div className="w-full flex justify-center items-center">
                     <a className=" px-10 md:px-8 py-2  ">
                       {
                     audio8.isPlaying && <BsPauseCircle className=" text-[#1E2B5E]" size={40} onClick={()=>{audio8.audio.pause(); setAudio8({...audio8, isPlaying: !audio8.isPlaying})}}/>

@@ -25,22 +25,22 @@ const upfooter = () => {
             
             <div className="p-0">
               
-              <div className="items-center flex justify-center='true' space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4">
+              <div className="items-center flex justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4">
                 <input
-                  justify-center='true'
+                  justify-center
                   type="email"
                   placeholder="Enter email address and share to your friends"
                   className="placeholder-[#1E2B5E] text-center md:w-8/12 w-10/12 text-[14px] font-poppins border-[#1E2B5E] text-[#1E2B5E] border-2 rounded-lg px-3 py-4"
                 />
               </div>
-              <div className="flex justify-center='true' space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4 container mx-auto">
+              <div className="flex justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4 container mx-auto">
                 <button className="bg-[#EFCB27] md:w-8/12 w-10/12 font-poppins text-[#1E2B5E] md:text-lg text-[15px] font-bold md:px-8 px-2 py-4 rounded-lg">
                 Share to your friends to get <br/>
                 FRESH MONEY up to ¥100,000!
                 </button>
               </div>
-              <div className=" flex justify-center='true' my-3 mb-6">
-                <button className="bg-[#1E2B5E] md:w-8/12 w-10/12 text-[#fff] flex justify-center='true' items-center p-3 rounded-full">
+              <div className=" flex justify-center my-3 mb-6">
+                <button className="bg-[#1E2B5E] md:w-8/12 w-10/12 text-[#fff] flex justify-center items-center p-3 rounded-full">
                 <p className="font-poppins font-medium mx-3  ">Share page</p>
                   <FaPaperPlane />
                   
