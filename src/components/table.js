@@ -14,7 +14,7 @@ export default function Table() {
         </div>
 
         <div className="overflow-x-scroll m-4 md:mx-0 rounded-t-md">
-          <table className="w-[40rem] md:w-full border-collapse: separate">
+          <table className="w-[40rem] md:w-max border-collapse: separate">
             <tbody className="w-9/12 ">
               <tr className="bg-[#1E2B5E] border border-4 border-[#1E2B5E] p-8 rounded-t-lg">
                 <th
@@ -25,7 +25,7 @@ export default function Table() {
                 </th>
               </tr>
               <tr>
-                <td className="border border-4 w-3/12 md:w-11/12 text-[12px] md:text-base rounded-t-lg border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
+                <td className="border border-4 w-3/12 md:w-6/12 text-[12px] md:text-base rounded-t-lg border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
                   If you’re only learning from language schools and<br/> University…
                 </td>
                 <td className="border border-4 w-3/12 md:w-11/12 text-[12px] md:text-base border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
@@ -65,7 +65,7 @@ export default function Table() {
         </div>
 
         <div className="overflow-x-scroll my-12 m-4 md:mx-0 rounded-t-md">
-          <table className="w-[40rem] md:w-full">
+          <table className="w-[40rem] md:w-max">
             <tbody className="">
               <tr className="bg-[#1E2B5E] p-8">
                 <th className="border border-4 border-[#1E2B5E] font-montserrat text-white">
@@ -107,11 +107,11 @@ export default function Table() {
                 </td>
               </tr>
               <tr>
-                <td className="border border-4 text-[12px] w-5/12 md:w-full md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
+                <td className="border border-4 text-[12px] w-5/12 md:w-6/12 md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
                   Again, you have got to learn new grammar patterns<br/> everyday 
                   without even knowing how to use them in your daily life 
                 </td>
-                <td className=" border border-4 text-[12px] w-5/12 md:w-full md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
+                <td className=" border border-4 text-[12px] w-5/12 md:w-6/12 md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
                   But Studrill provides you with spoken grammar <br/> patterns that 
                   are relevant to your daily life situations. <br/>
                 </td>

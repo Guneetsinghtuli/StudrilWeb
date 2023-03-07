@@ -33,7 +33,7 @@ const main = () => {
                   justify-center
                   type="email"
                   placeholder="Enter email address and share to your friends"
-                  class="placeholder-[#1E2B5E] w-9/12  border-2 border-[#1E2B5E] text-[13px] md:text-[15px] text-[#1E2B5E] border-2 font-poppins rounded-lg md:px-10 px-3 py-4"
+                  class="placeholder-[#1E2B5E] md:w-9/12   border-2 border-[#1E2B5E] text-[13px] md:text-[15px] text-[#1E2B5E] border-2 font-poppins rounded-lg md:px-10 px-3 py-4"
                 />
               </div>
               <div class="items-left justify-center space-y-6 sm:flex sm:space-y-0 sm:space-x-4 mt-4 md:w-9/12 w-full">
