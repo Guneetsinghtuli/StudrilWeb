@@ -24,16 +24,16 @@ const main = () => {
               </h2>
               <div className="p-4">
                 <p className="md:text-xl text-[14px] mb-4 text-[#1E2B5E] font-normal font-poppins text-center">
-                Studrill is an all-in-one speaking app where you can learn to express yourself & get feedback, listen to Native Japanese, and converse in natural Japanese.
+                <span className="makeBold">Studrill</span> is an <span className="makeBold">all-in-one speaking app</span> where you can learn from <span className="makeBold">expressing yourself, practicing listening,</span> and <span className="makeBold">getting feedback,</span> allowing you to <span className="makeBold">speak Japanese naturally, better than</span> most Japanese learners' <span className="makeBold">rigid speaking.</span>
                 </p>
               </div>
             </div>
-            <div class="items-center justify-center font-poppins space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4">
+            <div class="items-center w-full justify-center font-poppins space-y-4 sm:flex sm:space-y-0  mt-4">
                 <input
                   justify-center
                   type="email"
                   placeholder="Enter email address and share to your friends"
-                  class="placeholder-[#1E2B5E]  border-2 border-[#1E2B5E] text-[13px] md:text-[15px] text-[#1E2B5E] border-2 font-poppins rounded-lg md:px-10 px-5 py-4"
+                  class="placeholder-[#1E2B5E] w-9/12  border-2 border-[#1E2B5E] text-[13px] md:text-[15px] text-[#1E2B5E] border-2 font-poppins rounded-lg md:px-10 px-3 py-4"
                 />
               </div>
               <div class="items-left justify-center space-y-6 sm:flex sm:space-y-0 sm:space-x-4 mt-4 md:w-9/12 w-full">

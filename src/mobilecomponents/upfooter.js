@@ -30,7 +30,7 @@ const upfooter = () => {
                   justify-center
                   type="email"
                   placeholder="Enter email address and share to your friends"
-                  class="placeholder-[#1E2B5E] text-center md:w-9/12 w-10/12 text-[14px] font-poppins border-[#1E2B5E] text-[#1E2B5E] border-2 rounded-lg px-3 py-4"
+                  class="placeholder-[#1E2B5E] text-center md:w-8/12 w-10/12 text-[14px] font-poppins border-[#1E2B5E] text-[#1E2B5E] border-2 rounded-lg px-3 py-4"
                 />
               </div>
               <div class="flex justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4 container mx-auto">

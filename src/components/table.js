@@ -13,19 +13,19 @@ export default function Table() {
           </h1>
         </div>
 
-        <div className="overflow-x-scroll m-4 md:mx-0">
-          <table className="w-max">
-            <tbody className="w-9/12">
-              <tr className="bg-[#1E2B5E] p-8">
+        <div className="overflow-x-scroll m-4 md:mx-0 rounded-t-md">
+          <table className="w-max border-collapse: separate">
+            <tbody className="w-9/12 ">
+              <tr className="bg-[#1E2B5E] border border-4 border-[#1E2B5E] p-8 rounded-t-lg">
                 <th
                   colspan="2"
-                  className="border border-4 border-[#1E2B5E] font-montserrat text-white"
+                  className="font-montserrat text-white rounded-t-lg"
                 >
                   Why is it hard to be fluent in Japanese with ‘only’?
                 </th>
               </tr>
               <tr>
-                <td className="border border-4 border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
+                <td className="border border-4 rounded-t-lg border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
                   If you’re only learning from language schools and<br/> University…
                 </td>
                 <td className="border border-4 border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
@@ -64,7 +64,7 @@ export default function Table() {
           </table>
         </div>
 
-        <div className="overflow-x-scroll my-12 m-4 md:mx-0">
+        <div className="overflow-x-scroll my-12 m-4 md:mx-0 rounded-t-md">
           <table className="w-max">
             <tbody className="w-9/12">
               <tr className="bg-[#1E2B5E] p-8">

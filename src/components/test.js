@@ -90,7 +90,7 @@ const ThreeCardCarousel = () => {
           <div className="bg-[#F5F8FF] w-50 my-16 mt-10 rounded-lg ">
             <div className="  m-4">
               <h2 className="text-[14px] font-montserrat text-[#1E2B5E] text-center font-bold mb-4  mb-4 ml-6 mt-4">
-                A, Lives in Japan
+                C, Lives in Japan
               </h2>
             </div>
 
@@ -131,13 +131,13 @@ const ThreeCardCarousel = () => {
             <hr className="m-2 text-bold" />
             <div className="flex flex-col mr-4 ml-4 mt-2 mb-10 text-center">
               <p className="text-[16px] font-poppins font-medium	text-[#1E2B5E] m-2">
-                Didn't you say you come from Hawaii?
+              Hey, why is the restroom in this restaurant so far back?
               </p>
               <p className="text-[16px] font-poppins font-medium	text-[#1E2B5E] m-2">
-                ハワイ出身って言ってたよね。
+              ねえ、どうして洗面所はあんなに奥の方にあるのかな？
               </p>
               <p className="text-[16px] font-poppins font-medium	text-[#1E2B5E] m-2">
-                Hawai shusshin tte itteta yo ne.
+              Nē, dōshite senmenjo wa an'nani oku no hou ni aru no ka na?
               </p>
             </div>
           </div>
@@ -145,7 +145,7 @@ const ThreeCardCarousel = () => {
           <div className="bg-[#F5F8FF] w-50 my-16 mt-10 rounded-lg ">
             <div className="  m-4">
               <h2 className="text-[14px] font-montserrat text-[#1E2B5E] text-center font-bold mb-4  mb-4 ml-6 mt-4">
-                A, Lives in Japan
+               D, Lives Outside Japan
               </h2>
             </div>
 
@@ -186,13 +186,68 @@ const ThreeCardCarousel = () => {
             <hr className="m-2 text-bold" />
             <div className="flex flex-col mr-4 ml-4 mt-2 mb-10 text-center">
               <p className="text-[16px] font-poppins font-medium	text-[#1E2B5E] m-2">
-                Didn't you say you come from Hawaii?
+              Despite the bad service, at least the foods are tasty.
               </p>
               <p className="text-[16px] font-poppins font-medium	text-[#1E2B5E] m-2">
-                ハワイ出身って言ってたよね。
+              悪いサービスにもかかわらず、 食事はおいしいだけましだ。
               </p>
               <p className="text-[16px] font-poppins font-medium	text-[#1E2B5E] m-2">
-                Hawai shusshin tte itteta yo ne.
+              Warui sābisu nimokakawarazu, shokuji wa oishī dake mashida.
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-[#F5F8FF] w-50 my-16 mt-10 rounded-lg ">
+            <div className="  m-4">
+              <h2 className="text-[14px] font-montserrat text-[#1E2B5E] text-center font-bold mb-4  mb-4 ml-6 mt-4">
+               F, Lives Outside Japan
+              </h2>
+            </div>
+
+            <div className="text-4xl mb-4 md:px-16 px-5 py-5">
+              <div className="flex flex-row justify-around">
+                <div className="bg-white w-6/12 rounded-xl    border-0 r-0 mr-2">
+                  <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600] text-white bg-[#1E2B5E] rounded-t-md mb-4">
+                    Texbook only
+                  </h2>
+                  <div className="w-full flex justify-center items-center">
+                  <a className=" px-10 md:px-8 py-2 w-90">
+                    <BsPlayCircle className=" text-[#1E2B5E]" size={40}/>
+                  </a>
+
+                  </div>
+                  
+
+                  <h2 className="text-[16px] mb-3 text-center font-poppins text-[#1E2B5E] font-bold ">
+                    Play
+                  </h2>
+                </div>
+                <div className="bg-white w-6/12 rounded-xl border-0 r-0 mr-2">
+                  <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
+                    Studrill with textbook
+                  </h2>
+                  <div className="w-full flex justify-center items-center">
+                    <a className=" px-10 md:px-8 py-2  ">
+                      <BsPlayCircle className="text-[#EFCB27]" size={40} />
+                    </a>
+                  </div>
+
+                  <h2 className="text-[16px] mb-3 font-poppins text-center text-[#1E2B5E] font-bold ">
+                    Play
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <hr className="m-2 text-bold" />
+            <div className="flex flex-col mr-4 ml-4 mt-2 mb-10 text-center">
+              <p className="text-[16px] font-poppins font-medium	text-[#1E2B5E] m-2">
+              Ryan spends so much on his car that he runs out of money quickly.
+              </p>
+              <p className="text-[16px] font-poppins font-medium	text-[#1E2B5E] m-2">
+              ライアンは自分の車にあまりにも多くのお金を費やすので すぐにお金が無くなる。
+              </p>
+              <p className="text-[16px] font-poppins font-medium	text-[#1E2B5E] m-2">
+              Raian wa jibun no kuruma ni amarini mo ōku no okane o tsuiyasunode, sugu ni okane ga nakunaru.
               </p>
             </div>
           </div>
