@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaTiktok } from 'react-icons/fa';
 import Apple from '../assets/applelogo.png'
 import Google from '../assets/google.png'
 const Footer = () => {
@@ -48,20 +48,26 @@ const Footer = () => {
         <p className="text-white text-sm font-montserrat text-center sm:text-left">
           © 2023 Studrill. All Rights Reserved.
         </p>
-        <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-          <Link legacyBehavior href="#">
+        <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center='true' sm:justify-start">
+          <Link legacyBehavior href="https://m.facebook.com/studrill.ofcl/">
             <a className="text-[#1E2B5E] text-xl mx-3">
               <FaFacebook />
             </a>
           </Link>
-          <Link legacyBehavior href="#">
+          <Link legacyBehavior href="https://www.linkedin.com/company/studrill-jp/">
             <a className="ml-3 text-[#1E2B5E] text-xl mx-3">
-              <FaTwitter />
+              <FaLinkedin />
             </a>
           </Link>
-          <Link legacyBehavior href="#">
+          <Link legacyBehavior href="https://instagram.com/studrill?igshid=YmMyMTA2M2Y=">
             <a className="ml-3 text-[#1E2B5E] text-xl mx-3">
               <FaInstagram />
+            </a>
+          </Link>
+          {/* https://www.tiktok.com/@studrill?_t=8aRYJiIuttv&_r=1 */}
+          <Link legacyBehavior href="https://www.tiktok.com/@studrill?_t=8aRYJiIuttv&_r=1">
+            <a className="ml-3 text-[#1E2B5E] text-xl mx-3">
+              <FaTiktok />
             </a>
           </Link>
         </span>

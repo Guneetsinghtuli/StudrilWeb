@@ -39,7 +39,7 @@ const price = () => {
             Koibito, doko?
           </h2>
           </div>
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center='true'">
           <div className="items-center  mb-2  ">
             <Image src={Think}></Image>
           </div>

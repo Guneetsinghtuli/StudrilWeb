@@ -18,7 +18,7 @@ export default function Table() {
             <tbody className="w-9/12 ">
               <tr className="bg-[#1E2B5E] border border-4 border-[#1E2B5E] p-8 rounded-t-lg">
                 <th
-                  colspan="2"
+                  colSpan="2"
                   className="font-montserrat text-white rounded-t-lg"
                 >
                   Why is it hard to be fluent in Japanese with ‘only’?

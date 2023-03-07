@@ -5,6 +5,17 @@ import Image from "next/image";
 import Mobile from '../assets/mobile.png'
 
 const main = () => {
+
+  const share = ()=>{
+    console.log("share");
+    gtag('event', 'click', {
+      'event_category': 'button',
+      'event_label': 'emailSubscribtion',
+      'value': 1
+    });
+  }
+
+
   return (
     <section>
         <div className="bg-white-100 mt-16">
@@ -28,16 +39,16 @@ const main = () => {
                 </p>
               </div>
             </div>
-            <div class="items-center w-full justify-center font-poppins space-y-4 sm:flex sm:space-y-0  mt-4">
+            <div className="items-center w-full justify-center='true' font-poppins space-y-4 sm:flex sm:space-y-0  mt-4">
                 <input
-                  justify-center
+                  justify-center='true'
                   type="email"
                   placeholder="Enter email address and share to your friends"
-                  class="placeholder-[#1E2B5E] md:w-9/12   border-2 border-[#1E2B5E] text-[13px] md:text-[15px] text-[#1E2B5E] border-2 font-poppins rounded-lg md:px-10 px-3 py-4"
+                  className="placeholder-[#1E2B5E] md:w-9/12   border-2 border-[#1E2B5E] text-[13px] md:text-[15px] text-[#1E2B5E] border-2 font-poppins rounded-lg md:px-10 px-3 py-4"
                 />
               </div>
-              <div class="items-left justify-center space-y-6 sm:flex sm:space-y-0 sm:space-x-4 mt-4 md:w-9/12 w-full">
-                <button className="bg-[#EFCB27] w-full text-[16px] text-[#1E2B5E] font-bold font-poppins px-2 py-4 rounded-lg">
+              <div className="items-left justify-center='true' space-y-6 sm:flex sm:space-y-0 sm:space-x-4 mt-4 md:w-9/12 w-full">
+                <button className="bg-[#EFCB27] w-full text-[16px] text-[#1E2B5E] font-bold font-poppins px-2 py-4 rounded-lg" onClick={share}>
                 Share to your friends to get <br /> FRESH MONEY up to ¥100,000!
                 </button>
               </div>
