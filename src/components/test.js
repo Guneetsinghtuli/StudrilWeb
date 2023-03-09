@@ -53,11 +53,11 @@ const ThreeCardCarousel = () => {
 
   useEffect(() => {
     setAudio1({
-      audio: new Audio("/audio/a/one.mp3"),
+      audio: new Audio("/audio/a/two.mp3"),
       isPlaying: false,
     });
     setAudio2({
-      audio: new Audio("/audio/a/two.mp3"),
+      audio: new Audio("/audio/a/one.mp3"),
       isPlaying: false,
     });
     setAudio3({
@@ -137,7 +137,7 @@ const ThreeCardCarousel = () => {
                 </div>
                 <div className="bg-white w-6/12 rounded-xl border-0 r-0 mr-2">
                   <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
-                    Studrill with textbook
+                    With STUDRILL
                   </h2>
                   <div className="w-full flex justify-center items-center">
                     <a className=" px-10 md:px-8 py-2  ">
@@ -202,7 +202,7 @@ const ThreeCardCarousel = () => {
                 </div>
                 <div className="bg-white w-6/12 rounded-xl border-0 r-0 mr-2">
                   <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
-                    Studrill with textbook
+                    With STUDRILL
                   </h2>
                   <div className="w-full flex justify-center items-center">
                     <a className=" px-10 md:px-8 py-2  ">
@@ -269,7 +269,7 @@ const ThreeCardCarousel = () => {
                 </div>
                 <div className="bg-white w-6/12 rounded-xl border-0 r-0 mr-2">
                   <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
-                    Studrill with textbook
+                    With STUDRILL
                   </h2>
                   <div className="w-full flex justify-center items-center">
                     <a className=" px-10 md:px-8 py-2  ">
@@ -334,7 +334,7 @@ const ThreeCardCarousel = () => {
                 </div>
                 <div className="bg-white w-6/12 rounded-xl border-0 r-0 mr-2">
                   <h2 className="md:text-sm text-[0.7rem] p-3 text-center font-poppins font-[600]  text-[#1E2B5E] rounded-t-md bg-[#FFC727] mb-4">
-                    Studrill with textbook
+                    With STUDRILL
                   </h2>
                   <div className="w-full flex justify-center items-center">
                     <a className=" px-10 md:px-8 py-2  ">

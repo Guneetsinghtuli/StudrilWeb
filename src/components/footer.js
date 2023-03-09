@@ -11,14 +11,14 @@ const Footer = () => {
        <footer className="bg-[#1E2B5E] text-white ">
       <div className=" h-full container flex  mx-auto py-6 px-4">
         <div className=" w-full h-full flex flex-wrap justify-between items-center place-content-around">
-          <div>
+          <div className='my-6'>
             <h1 className="text-4xl font-montserrat font-bold text-white mb-2">Studrill </h1>
             <h2 className='text-xl  font-poppins  text-white mb-2 mt-2'>We make you speak.</h2>
-            <p className="text-sm font-poppins" href='contact@jpcourse.com'>Contact us at <br/> contact@jpcourse.com</p>
+            <p className="text-sm font-poppins" href='contact@jpcourse.com'>Contact us at <br/> contact@studrill.com</p>
             
           </div>
           <div className='flex flex-row place-content-around'>
-          <div className='place-content-around mx-5'>
+          <div className='place-content-around mx-0 md:mx-5 '>
             <h3 className="text-xl font-montserrat  text-[#EFCB27] mb-2">Studrill</h3>
             <ul className="text-sm">
               <li className='my-1'><a href="#" className="hover:text-white font-poppins my-8">Testimonies</a></li>
@@ -64,7 +64,6 @@ const Footer = () => {
               <FaInstagram />
             </a>
           </Link>
-          {/* https://www.tiktok.com/@studrill?_t=8aRYJiIuttv&_r=1 */}
           <Link legacyBehavior href="https://www.tiktok.com/@studrill?_t=8aRYJiIuttv&_r=1">
             <a className="ml-3 text-[#1E2B5E] text-xl mx-3">
               <FaTiktok />

@@ -14,7 +14,7 @@ export default function Table() {
         </div>
 
         <div className="overflow-x-scroll m-4 md:mx-0 rounded-t-md">
-          <table className="w-[40rem] md:w-max border-collapse: separate">
+          <table className="w-[40rem] md:w-[60rem] border-collapse: separate">
             <tbody className="w-9/12 ">
               <tr className="bg-[#1E2B5E] border border-4 border-[#1E2B5E] p-8 rounded-t-lg">
                 <th
@@ -26,37 +26,37 @@ export default function Table() {
               </tr>
               <tr>
                 <td className="border border-4 w-3/12 md:w-6/12 text-[12px] md:text-base rounded-t-lg border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
-                  If you’re only learning from language schools and<br/> University…
+                  If you’re only learning from <span className="makeBold">language schools and University…</span>
                 </td>
                 <td className="border border-4 w-3/12 md:w-11/12 text-[12px] md:text-base border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
-                  They focus too much on finishing the JLPT workbook. You will <br/>
+                  They focus too much on <span className="makeBold">finishing the JLPT workbook.</span> You will
                   get to speak in the last 10 minutes of the class. <br />
                 </td>
               </tr>
               <tr>
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
-                  If you’re only learning from conversation books…
+                  If you’re only learning from <span className="makeBold">conversation books…</span>
                 </td>
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
-                  They make you memorize the dialogues for a day and then forget <br/>
+                  They make you <span className="makeBold">memorize the dialogues for a day</span> and then forget 
                   them the next day.
                 </td>
               </tr>
               <tr>
                 <td className=" border border-4 text-[12px] md:text-base border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
-                  If you’re only learning from TVs and movies...
+                  If you’re only learning from <span className="makeBold">TVs and movies...</span>
                 </td>
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
-                  They help you acquire 2-3 new phrases, might be less or zero <br/>
-                  if you are not an advanced learner.
+                  They help you acquire 2-3 new phrases, might be less or zero
+                  <span className="makeBold">if you are not an advanced learner.</span>
                 </td>
               </tr>
               <tr>
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
-                  If you’re only learning from Japanese friends…
+                  If you’re only learning from <span className="makeBold">Japanese friends…</span>
                 </td>
                 <td className=" border border-4 text-[12px] md:text-base border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
-                  They are just dreams (it’s impossible). If you do have one, <br/>
+                  They are just dreams <span className="makeBold">(it’s impossible)</span>. If you do have one, 
                   you’re the luckiest.
                 </td>
               </tr>
@@ -65,8 +65,8 @@ export default function Table() {
         </div>
 
         <div className="overflow-x-scroll my-12 m-4 md:mx-0 rounded-t-md">
-          <table className="w-[40rem] md:w-max">
-            <tbody className="">
+          <table className="w-[40rem] md:w-[60rem]">
+            <tbody className="w-9/12">
               <tr className="bg-[#1E2B5E] p-8">
                 <th className="border border-4 border-[#1E2B5E] font-montserrat text-white">
                   Why is Studrill here to help you?
@@ -77,43 +77,41 @@ export default function Table() {
               </tr>
               <tr>
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
-                  Did you realize that textbook topics, such as health, food,<br/>
+                  Did you realize that <span className="makeBold">textbook topics,</span> such as health, food
                   transportation, etc, are too broad and impractical? <br/>
                 </td>
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
-                  Fortunately, Studrill has detailed daily conversation drills <br/>
-                  and topics, allowing you to express yourself and engaging with <br/>
-                  people
+                  Fortunately, Studrill has detailed daily conversation drills 
+                  and topics, allowing you to <span className="makeBold">express yourself and engaging with
+                  people</span>
                 </td>
               </tr>
               <tr>
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
-                  Then, you have to memorize too much vocabulary that is not <br/>
+                  Then, you have to <span className="makeBold">memorize too much vocabulary</span> that is not 
                   even used in your daily life.<br/>
                 </td>
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
-                  With Studrill, you get a customized-to-topic Kanji and <br/>
-                  Vocabulary that help you to express clearly and concisely. <br/>
+                  With Studrill, you get a customized-to-topic Kanji and 
+                  Vocabulary that help you to <span className="makeBold">express clearly and concisely</span> <br/>
                 </td>
               </tr>
               <tr>
                 <td className=" border border-4 text-[12px] md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
-                  Again, you have got to learn new grammar patterns everyday <br/>
+                  Again, you have got to learn <span className="makeBold">new grammar patterns everyday</span>
                   without even knowing how to use them in your daily life <br/>
                 </td>
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
-                  But Studrill provides you with spoken grammar patterns that <br/>
-                  are relevant to your daily life situations. <br/>
+                  But Studrill provides you with spoken grammar patterns that
+                  are <span className="makeBold">relevant to your daily life situations.</span> <br/>
                 </td>
               </tr>
               <tr>
                 <td className="border border-4 text-[12px] w-5/12 md:w-6/12 md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
-                  Again, you have got to learn new grammar patterns<br/> everyday 
-                  without even knowing how to use them in your daily life 
+                At the end of the day, you speak Japanese (or Japanglish), but you <span className="makeBold">think</span> in your <span className="makeBold"></span>native language
                 </td>
-                <td className=" border border-4 text-[12px] w-5/12 md:w-6/12 md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
-                  But Studrill provides you with spoken grammar <br/> patterns that 
-                  are relevant to your daily life situations. <br/>
+                <td className=" border border-4 text-[12px] w-5/12 md:w-11/12 md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
+                Studrill’s 3S, StuSmile, StuRelax, and StuConfident, guide you to <span className="makeBold">think in Japanese</span> and <span className="makeBold">immerse you fully in Natural Japanese</span> conversation.
                 </td>
               </tr>
             </tbody>

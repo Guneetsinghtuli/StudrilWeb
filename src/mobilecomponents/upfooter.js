@@ -34,9 +34,8 @@ const upfooter = () => {
                 />
               </div>
               <div className="flex justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4 container mx-auto">
-                <button className="bg-[#EFCB27] md:w-8/12 w-10/12 font-poppins text-[#1E2B5E] md:text-lg text-[15px] font-bold md:px-8 px-2 py-4 rounded-lg">
-                Share to your friends to get <br/>
-                FRESH MONEY up to ¥100,000!
+                <button className="bg-[#EFCB27] text-[13px] md:text-[16px] md:w-8/12 w-10/12 font-poppins text-[#1E2B5E] font-bold md:px-8 px-2 py-4 rounded-lg">
+                Submit and Share to Your Friends and Get Fresh Money Up To ¥100,000!
                 </button>
               </div>
               <div className=" flex justify-center my-3 mb-6">
