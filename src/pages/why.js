@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Upfooter from '../mobilecomponents/Upfooter'
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
+import Upfooter from '@/mobilecomponents/Upfooter'
 import Table from '@/components/table'
 
 const Why = () => {

@@ -1,7 +1,7 @@
-import FeatureM from "../mobilecomponents/feature";
-import Upfooter from "../mobilecomponents/upfooter";
-import Footer from "../components/footer";
-import Navbar from "../components/navbar";
+import FeatureM from "@/mobilecomponents/feature";
+import Upfooter from "@/mobilecomponents/upfooter";
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
 const Features = () => {
     return(
 
