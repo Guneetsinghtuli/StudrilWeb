@@ -53,7 +53,7 @@ const main = () => {
 
 
 
-    fetch("http://localhost:3000/api/email", {
+    fetch("https://www.studrill.com/api/email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -63,10 +63,11 @@ const main = () => {
       }),
     }).then((res) => {
       console.log(res);
+      setSubmitted(true);
     }).catch((err) => {
       console.log(err);
     });
-    setSubmitted(true);
+    
   }
 
 

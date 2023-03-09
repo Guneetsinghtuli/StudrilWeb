@@ -1,10 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaTiktok } from 'react-icons/fa';
-import Apple from '../assets/applelogo.png'
-import Google from '../assets/google.png'
 const Footer = () => {
   return (
     <>
@@ -24,7 +19,7 @@ const Footer = () => {
               <li className='my-1'><a href="#" className="hover:text-white font-poppins my-8">Testimonies</a></li>
               <li className='my-1'><a href="#" className="hover:text-white font-poppins my-8">Features</a></li>
               <li className='my-1'><a href="#" className="hover:text-white font-poppins my-8">Why Studrill</a></li>
-              <li className='my-1'><a href="#" className="hover:text-white font-poppins my-7 ">Blog</a></li>
+              <li className='my-1'><a href="https://blog.studrill.com" className="hover:text-white font-poppins my-7 ">Blog</a></li>
             </ul>
           </div>
 
