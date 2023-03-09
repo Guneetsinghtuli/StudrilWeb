@@ -1,8 +1,7 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Test from '../components/Test'
-import Footer from '../components/Footer'
-import Upfooter from '../mobilecomponents/Upfooter'
+import Navbar from '../components/Navbar.js'
+import Test from '../components/Test.js'
+import Footer from '../components/Footer.js'
+import Upfooter from '../mobilecomponents/Upfooter.js'
 
 
 const Testimonials = () => {
