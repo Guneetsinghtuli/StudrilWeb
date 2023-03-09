@@ -1,6 +1,6 @@
 import Navbar from '@/components/navbar'
 import Test from '@/components/test'
-import Footer from '@/components/Footer'
+import Footer from '@/components/footer'
 import Upfooter from '@/mobilecomponents/upfooter'
 
 
