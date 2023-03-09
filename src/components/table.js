@@ -48,7 +48,7 @@ export default function Table() {
                 </td>
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] md:p-5 p-2 text-[#1E2B5E] font-poppins">
                   They help you acquire 2-3 new phrases, might be less or zero
-                  <span className="makeBold">if you are not an advanced learner.</span>
+                  <span className="makeBold"> if you are not an advanced learner.</span>
                 </td>
               </tr>
               <tr>
@@ -79,11 +79,23 @@ export default function Table() {
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
                   Did you realize that <span className="makeBold">textbook topics,</span> such as health, food
                   transportation, etc, are too broad and impractical? <br/>
+                  <ol className="m-1">
+                  Example topics:
+                    <li>1. Family</li>
+                    <li>2. Animal</li>
+                    <li>3. Transportation</li>
+                  </ol>
                 </td>
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
                   Fortunately, Studrill has detailed daily conversation drills 
                   and topics, allowing you to <span className="makeBold">express yourself and engaging with
                   people</span>
+                  <ol className="m-1">
+                  Example topics:
+                    <li>1. I keep getting rejected from jobs.</li>
+                    <li>2. Ugh, my health keeps worsening.</li>
+                    <li>3. I got a surprise proposal from my fiance!</li>
+                  </ol>
                 </td>
               </tr>
               <tr>
