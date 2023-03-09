@@ -6,7 +6,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Studrill</title>
         <meta property="og:title" content="Subscribe to Studrill" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={"https://studrill.com/logoo.png"} />
