@@ -5,6 +5,74 @@ import Cloud from '../assets/Union.png'
 import Image from "next/image";
 
 const upfooter = () => {
+
+  const [email, setEmail] = React.useState("");
+  const [sharee, setSharee] = React.useState(false);
+  const [Submitted, setSubmitted] = React.useState(false);
+
+
+  const sharePage = () => {
+    gtag('event', 'click', {
+      'event_category': 'button',
+      'event_label': 'sharePage',
+      'value': 1
+    });
+    // SHare the page on whatsapp
+    setSharee(true);
+
+    if (navigator.share) {
+      navigator
+        .share({
+          title: "Studrill",
+          text: "Studrill is an all-in-one Japanese learning app that helps you learn Japanese faster and more effectively. Get early access now!",
+          url: "https://studrill.com/",
+          image: "https://www.studrill.com/logoo.png",
+        })
+        .then(() => console.log("Successful share"))
+        .catch((error) => console.log("Error sharing", error));
+    }
+  }
+
+  const share = ()=>{
+    console.log("share");
+    gtag('event', 'click', {
+      'event_category': 'button',
+      'event_label': 'emailSubscribtion',
+      'value': 1
+    });
+
+    // check if email is correct format
+    if (!email.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i)) {
+      alert("Please enter a valid email address");
+      return;
+    }
+    if(email.length === 0){
+      alert("Please enter a valid email address");
+      return;
+    }
+
+
+
+    fetch("https://www.studrill.com/api/email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email: email,
+      }),
+    }).then((res) => {
+      console.log(res);
+      setSubmitted(true);
+    }).catch((err) => {
+      console.log(err);
+    });
+    
+  }
+    // SHare the page on whatsapp
+
+
+
   return (
     <div className=" relative bg-[#F8F9FC] mt-36" id="end">
     <div className="absolute top-[-100px] -z-50">
@@ -22,25 +90,39 @@ const upfooter = () => {
               Do not miss out on the chance to use Studrill Japanese-speaking app to make your life easier. Special treatments are awaiting you too!
               </p>
           </div>
-            
-            <div className="p-0">
-              
+          {
+              Submitted ? (
+                <div className="bg-[#EFCB27] w-9/12 text-[12px] md:text-[16px] text-[#1E2B5E] font-bold font-poppins px-2 py-4 rounded-lg">
+                <p className="text-center ">
+                Thank you for sharing! You will receive an email with a link to download the app.
+                </p>
+              </div>
+              ) : (
+                <>
+                
               <div className="items-center flex justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4">
                 <input
                   justify-center
                   type="email"
                   placeholder="Enter email address and share to your friends"
                   className="placeholder-[#1E2B5E] text-center md:w-8/12 w-10/12 text-[14px] font-poppins border-[#1E2B5E] text-[#1E2B5E] border-2 rounded-lg px-3 py-4"
+                  onChange={(e) => {setEmail(e.target.value)}}
                 />
               </div>
               <div className="flex justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4 container mx-auto">
-                <button className="bg-[#EFCB27] text-[13px] md:text-[16px] md:w-8/12 w-10/12 font-poppins text-[#1E2B5E] font-bold md:px-8 px-2 py-4 rounded-lg">
+                <button className="bg-[#EFCB27] text-[13px] md:text-[16px] md:w-8/12 w-10/12 font-poppins text-[#1E2B5E] font-bold md:px-8 px-2 py-4 rounded-lg" onClick={share}>
                 Submit and Share to Your Friends and Get Fresh Money Up To ¥100,000!
                 </button>
               </div>
+                </>
+              )
+            }
+            
+            <div className="p-0">
+              
               <div className=" flex justify-center my-3 mb-6">
                 <button className="bg-[#1E2B5E] md:w-8/12 w-10/12 text-[#fff] flex justify-center items-center p-3 rounded-full">
-                <p className="font-poppins font-medium mx-3  ">Share page</p>
+                <p className="font-poppins font-medium mx-3  " onSubmit={sharePage}>Share page</p>
                   <FaPaperPlane />
                   
                 </button>
