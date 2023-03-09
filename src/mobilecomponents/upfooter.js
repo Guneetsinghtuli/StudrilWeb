@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const upfooter = () => {
   return (
-    <div className=" relative bg-[#F8F9FC] mt-36">
+    <div className=" relative bg-[#F8F9FC] mt-36" id="end">
     <div className="absolute top-[-100px] -z-50">
     <Image src={Cloud} alt="hh" className=" w-full h-100 "/>
     </div>

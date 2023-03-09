@@ -9,7 +9,7 @@ import Box from '../assets/box.png'
 export default function Benefits() {
     return (
       < >
-      <section className='bg-[#F8F9FC]'>
+      <section className='bg-[#F8F9FC]' id="features">
     <div className='py-14'>
     <div className='text-center'>
         <p className='text-left md:ml-8 ml-4 text-xl font-poppins  text-[#56647A] '>Here's Why </p>
