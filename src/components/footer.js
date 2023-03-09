@@ -16,10 +16,10 @@ const Footer = () => {
           <div className='place-content-around mx-0 md:mx-5 '>
             <h3 className="text-xl font-montserrat  text-[#EFCB27] mb-2">Studrill</h3>
             <ul className="text-sm">
-              <li className='my-1'><a href="#" className="hover:text-white font-poppins my-8">Testimonies</a></li>
-              <li className='my-1'><a href="#" className="hover:text-white font-poppins my-8">Features</a></li>
-              <li className='my-1'><a href="#" className="hover:text-white font-poppins my-8">Why Studrill</a></li>
-              <li className='my-1'><a href="https://blog.studrill.com" className="hover:text-white font-poppins my-7 ">Blog</a></li>
+              <li className='my-1'><Link href="/testimonials" className="hover:text-white font-poppins my-8">Testimonies</Link></li>
+              <li className='my-1'><Link href="/features" className="hover:text-white font-poppins my-8">Features</Link></li>
+              <li className='my-1'><Link href="/why" className="hover:text-white font-poppins my-8">Why Studrill</Link></li>
+              <li className='my-1'><Link href="https://blog.studrill.com" className="hover:text-white font-poppins my-7 ">Blog</Link></li>
             </ul>
           </div>
 
