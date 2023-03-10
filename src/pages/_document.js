@@ -6,14 +6,21 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <meta charSet="utf-8" />
         <meta property="og:title" content="Subscribe to Studrill" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={"https://studrill.com/logoo.png"} />
-        <meta property="og:url" content="https://studrill.com" />
+        <meta property="og:image" content={"https://www.studrill.com/logoo.png"} />
+        <meta property="og:url" content="https://www.studrill.com" />
         <meta
           property="og:description"
-          content="Studrill is an online platform for learning Japanese. Our courses cater to learners of all levels and cover everything from basic vocabulary to advanced conversations. Subscribe to our email list for updates and exclusive offers."
+          content="If Japanese use EngRish, we use Japanglish. But a better one. 
+
+Take the challenge improving your Japanese speaking with StuDrill and get FRESH MONEY up to ¥100,000!
+CLICK THE LINK now https://www.studrill.com/
+
+App is launching this March! Get exclusive treatment if you sign-up early!"
         />
+
 
         <meta name="theme-color" content="#ffffff"></meta>
         <link rel="preconnect" href="https://fonts.googleapis.com" />

@@ -77,7 +77,7 @@ export default function Table() {
               </tr>
               <tr>
                 <td className="border border-4 text-[12px] md:text-base border-[#1E2B5E] p-2 text-[#1E2B5E] font-poppins">
-                  Did you realize that <span className="makeBold">textbook topics,</span> such as health, food
+                  Did you realize that <span className="makeBold">textbook topics,</span> such as health, food, 
                   transportation, etc, are too broad and impractical? <br/>
                   <ol className="m-1">
                   Example topics:

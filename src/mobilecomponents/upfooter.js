@@ -92,8 +92,7 @@ const upfooter = () => {
               <div className="flex justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4 container mx-auto">
               <div className="bg-[#EFCB27] w-9/12 text-[12px] md:text-[16px] text-[#1E2B5E] font-bold font-poppins px-2 py-4 rounded-lg">
                 <p className="text-center ">
-                  Thank you for sharing! You will receive an email with a link
-                  to download the app.
+                Don’t forget to share this page to your friends and get up to ¥100,000 when the app is launched!
                 </p>
               </div>
               </div>
@@ -127,7 +126,7 @@ const upfooter = () => {
                 <button className="bg-[#1E2B5E] md:w-8/12 w-10/12 text-[#fff] flex justify-center items-center p-3 rounded-full">
                   <p
                     className="font-poppins font-medium mx-3  "
-                    onSubmit={sharePage}
+                    onClick={sharePage}
                   >
                     Share page
                   </p>

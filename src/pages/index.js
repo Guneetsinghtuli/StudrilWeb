@@ -50,8 +50,6 @@ export default function Home() {
         const sectionBottom = sectionRect.bottom + scrolled
 
         if (scrolled >= sectionTop && scrolled < sectionBottom) {
-          console.log("hello")
-          // The user has scrolled to the section, log the event
           gtag('event', 'section_scrolled', { section_name: 'end' })
         }
       }

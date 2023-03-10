@@ -98,7 +98,7 @@ const main = () => {
               Submitted ? (
                 <div className="bg-[#EFCB27] w-9/12 text-[12px] md:text-[16px] text-[#1E2B5E] font-bold font-poppins px-2 py-4 rounded-lg">
                 <p className="text-center ">
-                Thank you for sharing! You will receive an email with a link to download the app.
+                Don’t forget to share this page to your friends and get up to ¥100,000 when the app is launched!
                 </p>
               </div>
               ) : (
