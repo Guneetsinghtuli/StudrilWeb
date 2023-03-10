@@ -22,9 +22,14 @@ const upfooter = () => {
       navigator
         .share({
           title: "Studrill",
-          text: "Studrill is an all-in-one Japanese learning app that helps you learn Japanese faster and more effectively. Get early access now!",
+          text: `If Japanese use EngRish, we use Japanglish. But a better one. 
+
+          Take the challenge improving your Japanese speaking with StuDrill and get FRESH MONEY up to ¥100,000!
+          CLICK THE LINK now https://www.studrill.com/
+
+          App is launching this March! Get exclusive treatment if you sign-up early!",
           url: "https://studrill.com/",
-          image: "https://www.studrill.com/logoo.png",
+          image: "https://www.studrill.com/logoo.png`,
         })
         .then(() => console.log("Successful share"))
         .catch((error) => console.log("Error sharing", error));
