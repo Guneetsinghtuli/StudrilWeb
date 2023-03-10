@@ -47,9 +47,9 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
       })
         .then(() => console.log("Successful share"))
         .catch((error) => {
-          window.location.reload();
-          sharePage();
-          
+          fetch("instagram.com/direct/inbox/?text=If Japanese use EngRish, we use Japanglish. But a better one.")
+
+
           console.log("Error sharing", error)
         });
     }
