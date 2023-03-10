@@ -1,7 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
-
+  console.log(process.env.GTAG);
 
   return (
     <Html lang="en">
@@ -41,7 +41,7 @@ App is launching this March! Get exclusive treatment if you sign-up early!"
 
       <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=process.env.GTAG"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG}`}
       ></script>
       <script
         dangerouslySetInnerHTML={{
@@ -49,7 +49,7 @@ App is launching this March! Get exclusive treatment if you sign-up early!"
                   window.dataLayer = window.dataLayer || [];
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
-                  gtag('config', 'process.env.GTAG');
+                  gtag('config', process.env.GTAG);
               `,
         }}
       ></script>
