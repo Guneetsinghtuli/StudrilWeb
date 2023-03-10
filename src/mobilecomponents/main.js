@@ -48,6 +48,8 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
         .then(() => console.log("Successful share"))
         .catch((error) => {
           window.location.reload();
+          sharePage();
+          
           console.log("Error sharing", error)
         });
     }
