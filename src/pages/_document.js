@@ -1,7 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
-
+  console.log("Welcome to Studrill!")
   return (
     <Html lang="en">
       <Head>
