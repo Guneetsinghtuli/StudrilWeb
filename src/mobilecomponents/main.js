@@ -32,7 +32,7 @@ CLICK THE LINK now https://www.studrill.com/
 
 App is launching this March! Get exclusive treatment if you sign-up early!`,
         url: "https://studrill.com/",
-        image: "https://www.studrill.com/logoo.png",
+        // image: "https://www.studrill.com/logoo.png",
       })
         .then(() => console.log("Successful share"))
         .catch((error) => console.log("Error sharing", error));

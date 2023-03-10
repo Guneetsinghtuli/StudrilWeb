@@ -17,6 +17,12 @@ const upfooter = () => {
     });
     // SHare the page on whatsapp
     setSharee(true);
+// Share on instagram closes the app immediately
+
+
+
+
+    
 
     if (navigator.share) {
       navigator
