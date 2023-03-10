@@ -20,6 +20,17 @@ const main = () => {
     });
     // SHare the page on whatsapp
     setSharee(true);
+    console.log(navigator.canShare({
+      title: "Studrill",
+      text: `If Japanese use EngRish, we use Japanglish. But a better one. 
+
+Take the challenge improving your Japanese speaking with StuDrill and get FRESH MONEY up to ¥100,000!
+CLICK THE LINK now https://www.studrill.com/
+
+App is launching this March! Get exclusive treatment if you sign-up early!`,
+      url: "https://studrill.com/",
+      image: "https://www.studrill.com/logoo.png",
+    }))
 
     if (navigator.share) {
       navigator
@@ -35,7 +46,10 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
         // image: "https://www.studrill.com/logoo.png",
       })
         .then(() => console.log("Successful share"))
-        .catch((error) => console.log("Error sharing", error));
+        .catch((error) => {
+          window.location.reload();
+          console.log("Error sharing", error)
+        });
     }
   }
 
