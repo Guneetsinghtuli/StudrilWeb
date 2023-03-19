@@ -4,6 +4,9 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Box from '../assets/box.png'
 
+import StuConfident from "../assets/StuConfident.png"
+import StuRelax from "../assets/StuRelax.png"
+import StuSmile from "../assets/StuSmile.png"
   
 
 export default function Benefits() {
@@ -20,7 +23,7 @@ export default function Benefits() {
         <div className="flex flex-col md:flex-col items-center">
           <div className="md:w-1/2 md:pr-2">
             <Image
-              src={Box}
+              src={StuSmile}
               alt="Example image"
               width={500}
               height={500}
@@ -43,7 +46,7 @@ export default function Benefits() {
         <div className="flex flex-col md:flex-col items-center">
           <div className="md:w-1/2 md:pr-2">
             <Image
-              src={Box}
+              src={StuRelax}
               alt="Example image"
               width={500}
               height={500}
@@ -66,7 +69,7 @@ export default function Benefits() {
         <div className="flex flex-col md:flex-col items-center">
           <div className="md:w-1/2 md:pr-2">
             <Image
-              src={Box}
+              src={StuConfident}
               alt="Example image"
               width={500}
               height={500}
