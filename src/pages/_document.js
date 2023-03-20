@@ -54,7 +54,9 @@ App is launching this March! Get exclusive treatment if you sign-up early!"
                   window.dataLayer = window.dataLayer || [];
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
-                  gtag('config', ${process.env.NEXT_PUBLIC_GTAG});
+                  gtag('config', ${process.env.NEXT_PUBLIC_GTAG},{
+                    'user_id': 'USER_ID'
+                  });
               `,
         }}
       ></script>
