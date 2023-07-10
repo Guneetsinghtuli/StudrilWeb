@@ -57,7 +57,7 @@ const ThreeCardCarousel = () => {
       isPlaying: false,
     });
     setAudio2({
-      audio: new Audio("/audio/a/one.mp3"),
+      audio: new Audio("/audio/a/three.mp3"),
       isPlaying: false,
     });
     setAudio3({
