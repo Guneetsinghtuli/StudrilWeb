@@ -108,7 +108,7 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
             </div>
             <div className="">
               <h2 className="md:text-2xl text-[24px] font-poppins font-bold text-[#1E2B5E] text-center">
-              You deserve to speak Japanese better.
+              Speak your dreams into reality
               </h2>
               <div className="p-4">
                 <p className="md:text-xl text-[14px] mb-4 text-[#1E2B5E] font-normal font-poppins text-center">

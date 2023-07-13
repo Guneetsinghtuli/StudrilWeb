@@ -4,7 +4,7 @@ import Footer from '@/components/footer'
 import Upfooter from '@/mobilecomponents/upfooter'
 import Table from '@/components/table'
 
-const Why = () => {
+const Whystudrill = () => {
     return (
         <div className="md:ml-96 md:mr-96">
             <Navbar />
@@ -15,4 +15,4 @@ const Why = () => {
     )
 }
 
-export default Why
+export default Whystudrill
