@@ -28,6 +28,7 @@ const Footer = () => {
             <ul className="text-sm h-full">
               <li className='my-1'><a href="/privacypolicy" className="hover:text-white font-poppins my-6">Privacy Policy</a></li>
               <li className='my-1'><a href="/terms" className="hover:text-white font-poppins my-6">Terms of Service</a></li>
+              <li className='my-1'><a href="/commercialdisclosure" className="hover:text-white font-poppins my-6">Commercial Disclosure</a></li>
             </ul>
           </div>
           </div>

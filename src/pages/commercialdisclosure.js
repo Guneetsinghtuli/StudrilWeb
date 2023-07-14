@@ -120,7 +120,7 @@ const commercialdisclosure = () => {
                             <h2>About withdrawal and refund 退会・返金について</h2>
                         </div>
                         <div className="font-poppins p-3">
-                            <h2>Except in the case of termination of membership by the company, no refund or withdrawl will be made for any fees already paid regardless of whether or not lessons have been taken. </h2>
+                            <h2>Except in the case of termination of membership by the company, no refund or withdrawal will be made for any fees already paid regardless of whether or not lessons have been taken. </h2>
                         </div>
                     </div>
 
