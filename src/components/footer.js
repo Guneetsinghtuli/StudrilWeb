@@ -60,7 +60,7 @@ const Footer = () => {
               <FaInstagram />
             </a>
           </Link>
-          <Link legacyBehavior href="https://www.tiktok.com/@studrill?_t=8aRYJiIuttv&_r=1">
+          <Link legacyBehavior href="https://www.tiktok.com/@studrill.jp?_t=8ftvHC7ljsI&_r=1">
             <a className="ml-3 text-[#1E2B5E] text-xl mx-3">
               <FaTiktok />
             </a>

@@ -129,14 +129,18 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
                 <input
                   justify-center
                   type="email"
-                  placeholder="Enter email address and share to your friends"
+                  placeholder="Early sign-up"
                   onChange={(e) => setEmail(e.target.value)}
-                  className="placeholder-[#1E2B5E] w-full md:w-9/12   border-2 border-[#1E2B5E] text-[13px] md:text-[15px] text-[#1E2B5E] border-2 font-poppins rounded-lg md:px-10 px-3 py-4"
+                //   ::placeholder {
+                //     text-align: center; 
+                //  }
+
+                  className="placeholder-[#1E2B5E] text-center w-full md:w-9/12   border-2 border-[#1E2B5E] text-[13px] md:text-[15px] text-[#1E2B5E] border-2 font-poppins rounded-lg md:px-10 px-3 py-4"
                 />
               </div>
               <div className="items-left justify-center space-y-6 sm:flex sm:space-y-0 sm:space-x-4 mt-4 md:w-9/12 w-full">
                 <button className="bg-[#EFCB27] w-full text-[12px] md:text-[16px] text-[#1E2B5E] font-bold font-poppins px-2 py-4 rounded-lg" onClick={share}>
-                Submit and Share to Your Friends and Get Fresh Money up to ¥100,000! 
+                Submit and share to your friends 
                 </button>
               </div>
                 </>
