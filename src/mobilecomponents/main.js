@@ -129,13 +129,13 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
                 <input
                   justify-center
                   type="email"
-                  placeholder="Early sign-up"
+                  placeholder="Enter your email and get early sign-up"
                   onChange={(e) => setEmail(e.target.value)}
                 //   ::placeholder {
                 //     text-align: center; 
                 //  }
 
-                  className="placeholder-[#1E2B5E] text-center w-full md:w-9/12   border-2 border-[#1E2B5E] text-[13px] md:text-[15px] text-[#1E2B5E] border-2 font-poppins rounded-lg md:px-10 px-3 py-4"
+                  className="placeholder-[#1E2B5E] w-full md:w-9/12   border-2 border-[#1E2B5E] text-[13px] md:text-[15px] text-[#1E2B5E] border-2 font-poppins rounded-lg md:px-10 px-3 py-4 opacity-50"
                 />
               </div>
               <div className="items-left justify-center space-y-6 sm:flex sm:space-y-0 sm:space-x-4 mt-4 md:w-9/12 w-full">

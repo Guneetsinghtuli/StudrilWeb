@@ -113,8 +113,8 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
                   <input
                     justify-center
                     type="email"
-                    placeholder="Early sign-up"
-                    className="placeholder-[#1E2B5E] text-center md:w-8/12 w-10/12 text-[14px] font-poppins border-[#1E2B5E] text-[#1E2B5E] border-2 rounded-lg px-3 py-4"
+                    placeholder="Enter your email and get early sign-up"
+                    className="placeholder-[#1E2B5E] text-center md:w-8/12 w-10/12 text-[14px] font-poppins border-[#1E2B5E] text-[#1E2B5E] border-2 rounded-lg px-3 py-4 opacity-50"
                     onChange={(e) => {
                       setEmail(e.target.value);
                     }}
