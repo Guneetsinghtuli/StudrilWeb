@@ -37,7 +37,7 @@ const commercialdisclosure = () => {
                             <h2>Address 住所 </h2>
                         </div>
                         <div className="font-poppins p-3">
-                            <h2>350-1103 Kawagoe, Saitama, Japan</h2>
+                            <h2>We will disclose without delay if requested</h2>
                         </div>
                     </div>
 
@@ -79,7 +79,7 @@ const commercialdisclosure = () => {
                             <h2>Selling price 販売価格 </h2>
                         </div>
                         <div className="font-poppins p-3">
-                            <h2>Depending on the subscribtion it can range from ¥6000 to ¥8000.</h2>
+                            <h2>Depending on the subscription it can range from ¥5000 to ¥6500.</h2>
                         </div>
                     </div>
 
