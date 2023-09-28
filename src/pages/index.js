@@ -7,6 +7,7 @@ import FeatureM from "../mobilecomponents/feature";
 import useMediaQuery from "@/components/hooks/useMobile";
 import Upfooter from "../mobilecomponents/upfooter";
 import { useEffect } from "react";
+import Pricing from "@/components/pricing";
 export default function Home() {
   const isDesktop = useMediaQuery("(min-width: 960px)");
 
@@ -71,6 +72,7 @@ export default function Home() {
       <div className="h-20 bg-gradient-to-b from-[#EFCB27] to-[#F8F9FC]"></div>
       <FeatureM />
       <Table />
+      <Pricing />
       <Upfooter />
       <Footer />
     </div>

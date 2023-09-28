@@ -95,8 +95,7 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
               </h2>
               <p className="ms:mx-12 mx-1 mt-3 font-poppins text-[#56647A] text-md text-center">
                 Do not miss out on the chance to use Studrill Japanese-speaking
-                app to make your life easier. Special treatments are awaiting
-                you too!
+                app to make your life easier.
               </p>
             </div>
             {Submitted ? (

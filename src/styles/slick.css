@@ -11,4 +11,56 @@
 .makeBold{
   font-weight: 700 !important;
 }
+.slideRight{
+  animation: slideRight 0.5s ease-in-out;
+  color: white !important;
 
+}
+.slideLeft{
+  animation: slideLeft 0.5s ease-in-out;
+  color: white !important;
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animated-border {
+  width: 200px;
+  height: 200px;
+  border: 2px solid transparent; /* Set initial transparent border */
+  position: relative;
+}
+
+/* Create a keyframe animation */
+@keyframes borderAnimation {
+  0% {
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+  }
+  100% {
+      border-top-color: red; /* Change the border color to your desired color */
+      border-right-color: red;
+      border-bottom-color: red;
+      border-left-color: red;
+  }
+}
+
+/* Apply the animation to the element */
+.animated.active {
+  animation: borderAnimation 2s linear forwards;
+}
