@@ -32,7 +32,7 @@ const Pricing = () => {
                         <p className='font-poppins font-bold text-[14px]'>3 Months</p>
                     </div>
                     <div className='text-center p-2 my-3'>
-                        <p className='font-poppins text-[#6563D0] text-[20px] font-bold'>¥5,390/month</p>
+                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥5,390/month</p>
                         <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>¥5929 +税込</p>
                     </div>
                     
@@ -44,7 +44,7 @@ const Pricing = () => {
                         <p className='font-poppins font-bold text-[14px]'>6 Months</p>
                     </div>
                     <div className='text-center p-2 my-3'>
-                        <p className='font-poppins text-[#6563D0] text-[20px] font-bold'>¥5,990/month</p>
+                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥5,990/month</p>
                         <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>¥6589 +税込</p>
                     </div>
                 </div>
@@ -54,8 +54,8 @@ const Pricing = () => {
                 </div>
             </div>
         </div>
-        <div className='px-5 my-5'>
-            <div className='bg-[#FFEBF0] border-2 rounded border-[#D0637D] mx-8 relative my-5 mt-10'>
+        <div className='px-0 md:px-5 my-5'>
+            <div className='bg-[#FFEBF0] border-2 rounded border-[#D0637D] md:mx-8 mx-4 relative my-5 mt-10'>
                 <div className='absolute right-[-10px] top-[-10px] bg-[#D0637D] p-1 rounded-full'>
                     <FaTimes className='text-white text-[20px] cursor-pointer'/>
                 </div>
@@ -63,7 +63,7 @@ const Pricing = () => {
                 <table className='font-poppins text-[13px] p-3 text-[#1E2B5E]'>
                     <tbody>
                     <tr className='my-5'>
-                        <td className='w-[150px] align-top font-semibold'><p>Other apps/ school:</p></td>
+                        <td className='md:w-[150px] w-[100px] align-top font-semibold'><p>Other apps:</p></td>
                         <td>
                             <p>“Hey, can you describe how is your day today?”</p>
                         </td>
@@ -91,7 +91,7 @@ const Pricing = () => {
                 </div>
             </div>
 
-            <div className='bg-[#2ba80c26] border-2 rounded border-[#2ba80c] mx-8 relative'>
+            <div className='bg-[#2ba80c26] border-2 rounded border-[#2ba80c] md:mx-8 mx-4 relative'>
                 <div className='absolute right-[-10px] top-[-10px] bg-[#2ba80c] p-1 rounded-full'>
                     <FaCheck className='text-white text-[20px] cursor-pointer' />
                 </div>
@@ -99,7 +99,7 @@ const Pricing = () => {
                 <table className='font-poppins text-[13px] p-3 text-[#1E2B5E]'>
                     <tbody>
                     <tr className='my-5'>
-                        <td className='w-[150px] align-top font-semibold'>Studrill:</td>
+                        <td className='md:w-[150px] w-[100px] align-top font-semibold'>Studrill:</td>
                         <td>
                         Can you explain to me that Today you have finished doing your work, met with clients, and signed a deal?
                         </td>
@@ -127,7 +127,7 @@ const Pricing = () => {
             </div>
 
 
-            <div className='border-2 border-[#EFCB27] rounded-md text-[12px] mx-8 my-5  px-2 py-3 text-[#1E2B5E]'>
+            <div className='border-2 border-[#EFCB27] rounded-md text-[12px] md:mx-8 mx-4 my-5  px-2 py-3 text-[#1E2B5E]'>
             <div className='flex items-center my-2'>
             <div className='mx-3'>
                     <FaCheckCircle size={15} color='#EFCB27'/>
