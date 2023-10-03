@@ -11,14 +11,13 @@
 .makeBold{
   font-weight: 700 !important;
 }
+
 .slideRight{
   animation: slideRight 0.5s ease-in-out;
-  color: white !important;
-
+  
 }
 .slideLeft{
   animation: slideLeft 0.5s ease-in-out;
-  color: white !important;
 }
 @keyframes slideRight {
   0% {
