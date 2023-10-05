@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import { FaCheck, FaCheckCircle, FaTimes } from 'react-icons/fa'
-
+import { FaAppStoreIos, FaApple, FaApplePay, FaCheck, FaCheckCircle, FaGooglePay, FaGooglePlay, FaTimes } from 'react-icons/fa'
+import Image from 'next/image'
+import Appstore from '../assets/black.svg'
 const Pricing = () => {
     const [toggle, setToggle] = useState(false)
 
@@ -32,8 +33,8 @@ const Pricing = () => {
                         <p className='font-poppins font-bold text-[14px]'>3 Months</p>
                     </div>
                     <div className='text-center p-2 my-3'>
-                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥5,390/month</p>
-                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>¥5929 +税込</p>
+                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥5,390</p>
+                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>(¥5,929 +税込)</p>
                     </div>
                     
                 </div>
@@ -44,8 +45,8 @@ const Pricing = () => {
                         <p className='font-poppins font-bold text-[14px]'>6 Months</p>
                     </div>
                     <div className='text-center p-2 my-3'>
-                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥5,990/month</p>
-                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>¥6589 +税込</p>
+                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥5,990</p>
+                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>(¥6,589 +税込)</p>
                     </div>
                 </div>
                 <div className='absolute left-[50%] w-[100px] -translate-x-1/2 font-poppins bottom-[-18px] bg-[#2BA80C] rounded-full p-2 text-center text-[12px] font-semibold text-white'>
@@ -197,6 +198,18 @@ const Pricing = () => {
         <div className='mx-10 my-3'>
             <button className='rounded-full p-2 w-full flex justify-center items-center bg-[#1E2B5E] text-white font-poppins font-bold'>Coming to you this Autumn </button>
             
+        </div>
+        <div className='flex items-center justify-center'>
+            <div className=''>
+                <Image src={Appstore} width={150}  />
+            </div>
+            <div className='w-[30px]'></div>
+            <div className=''>
+                    <img className='w-[180px]' src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"></img>
+
+
+
+            </div>
         </div>
         
     </div>
