@@ -112,7 +112,9 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
               </h2>
               <div className="p-4">
                 <p className="md:text-xl text-[14px] mb-4 text-[#1E2B5E] font-normal font-poppins text-center">
-                <span className="">Studrill</span> is an <span className="">all-in-one speaking app</span> where you can learn from <span className="">expressing yourself, practicing listening,</span> and <span className="">getting feedback,</span> allowing you to <span className="">speak Japanese naturally, better than</span> most Japanese learners' <span className="">rigid speaking.</span>
+                {/* <span className="">Studrill</span> is an <span className="">all-in-one speaking app</span> where you can learn from <span className="">expressing yourself, practicing listening,</span> and <span className="">getting feedback,</span> allowing you to <span className="">speak Japanese naturally, better than</span> most Japanese learners' <span className="">rigid speaking.</span> */}
+            Studrill is an <b>AI powered 7-in-1 personal Japanese tutor </b>that <i>guides</i> individuals to express themselves, practice listening, and receive feedback, allowing them to speak Japanese naturally, better than most Japanese learners’ rigid speaking.
+
                 </p>
               </div>
             </div>
