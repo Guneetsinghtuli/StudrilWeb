@@ -18,7 +18,7 @@ const Footer = () => {
             <ul className="text-sm">
               <li className='my-1'><Link href="/testimonials" className="hover:text-white font-poppins my-8">Testimonies</Link></li>
               <li className='my-1'><Link href="/features" className="hover:text-white font-poppins my-8">Features</Link></li>
-              <li className='my-1'><Link href="/why" className="hover:text-white font-poppins my-8">Why Studrill</Link></li>
+              <li className='my-1'><Link href="/whystudrill" className="hover:text-white font-poppins my-8">Why Studrill</Link></li>
               <li className='my-1'><Link href="https://blog.studrill.com" className="hover:text-white font-poppins my-7 ">Blog</Link></li>
             </ul>
           </div>
