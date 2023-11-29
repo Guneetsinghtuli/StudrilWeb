@@ -112,7 +112,7 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
                   <input
                     justify-center
                     type="email"
-                    placeholder="Enter your email and get early sign-up"
+                    placeholder="Enter your email to get discount offers (early sign-up) "
                     className="placeholder-[#1E2B5E] text-center md:w-8/12 w-10/12 text-[14px] font-poppins border-[#1E2B5E] text-[#1E2B5E] border-2 rounded-lg px-3 py-4 opacity-50"
                     onChange={(e) => {
                       setEmail(e.target.value);
@@ -124,7 +124,7 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
                     className="bg-[#EFCB27] text-[13px] md:text-[16px] md:w-8/12 w-10/12 font-poppins text-[#1E2B5E] font-bold md:px-8 px-2 py-4 rounded-lg"
                     onClick={share}
                   >
-                    Submit and Share to Your Friends
+                    Submit (Discount code will be emailed in early Dec)
                   </button>
                 </div>
               </>
@@ -137,7 +137,7 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
                     className="font-poppins font-medium mx-3  "
                     onClick={sharePage}
                   >
-                    Share page
+                    Share to your friends
                   </p>
                   <FaPaperPlane />
                 </button>

@@ -131,7 +131,7 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
                 <input
                   justify-center
                   type="email"
-                  placeholder="Enter your email and get early sign-up"
+                  placeholder="Enter your email to get discount offers (early sign-up) "
                   onChange={(e) => setEmail(e.target.value)}
                 //   ::placeholder {
                 //     text-align: center; 
@@ -142,7 +142,7 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
               </div>
               <div className="items-left justify-center space-y-6 sm:flex sm:space-y-0 sm:space-x-4 mt-4 md:w-9/12 w-full">
                 <button className="bg-[#EFCB27] w-full text-[12px] md:text-[16px] text-[#1E2B5E] font-bold font-poppins px-2 py-4 rounded-lg" onClick={share}>
-                Submit and share to your friends 
+                Submit (Discount code will be emailed in early Dec)
                 </button>
               </div>
                 </>
@@ -150,7 +150,7 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
             }
               <div className=" flex justify-center md:w-9/12 w-full my-3 ">
                 <button className="bg-[#1E2B5E] w-full text-[12px] md:text-[16px]  text-[#fff] flex justify-center items-center p-3 rounded-full" onClick={sharePage}>
-                <p className="font-poppins font-medium mx-3  ">Share page</p>
+                <p className="font-poppins font-medium mx-3  ">Share to your friends</p>
                   <FaPaperPlane />
                   
                 </button>
