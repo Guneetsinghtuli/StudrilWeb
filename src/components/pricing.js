@@ -33,8 +33,8 @@ const Pricing = () => {
                         <p className='font-poppins font-bold text-[14px]'>3 Months</p>
                     </div>
                     <div className='text-center p-2 my-3'>
-                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥5,390</p>
-                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>(¥5,929 +税込)</p>
+                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥5,600</p>
+                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>(US$39)</p>
                     </div>
                     
                 </div>
@@ -45,8 +45,8 @@ const Pricing = () => {
                         <p className='font-poppins font-bold text-[14px]'>6 Months</p>
                     </div>
                     <div className='text-center p-2 my-3'>
-                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥5,990</p>
-                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>(¥6,589 +税込)</p>
+                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥10,800</p>
+                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>(US$75)</p>
                     </div>
                 </div>
                 <div className='absolute left-[50%] w-[100px] -translate-x-1/2 font-poppins bottom-[-18px] bg-[#2BA80C] rounded-full p-2 text-center text-[12px] font-semibold text-white'>
@@ -55,7 +55,7 @@ const Pricing = () => {
                 </div>
             </div>
         </div>
-        <div className='px-0 md:px-5 my-5'>
+        {/* <div className='px-0 md:px-5 my-5'>
             <div className='bg-[#FFEBF0] border-2 rounded border-[#D0637D] md:mx-8 mx-4 relative my-5 mt-10'>
                 <div className='absolute right-[-10px] top-[-10px] bg-[#D0637D] p-1 rounded-full'>
                     <FaTimes className='text-white text-[20px] cursor-pointer'/>
@@ -193,10 +193,10 @@ const Pricing = () => {
 
 
 
-        </div>
+        </div> */}
 
-        <div className='mx-10 my-3'>
-            <button className='rounded-full p-2 w-full flex justify-center items-center bg-[#1E2B5E] text-white font-poppins font-bold'>Coming to you this Autumn </button>
+        <div className='mx-10 my-10'>
+            <button className='rounded-full p-2 w-full flex justify-center items-center bg-[#EFCB27] text-white font-poppins font-bold'>Coming to you this December </button>
             
         </div>
         <div className='flex items-center justify-center'>
