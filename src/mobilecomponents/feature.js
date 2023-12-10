@@ -33,7 +33,8 @@ export default function Benefits() {
             <h2 className="text-2xl font-poppins font-bold text-[#1E2B5E] text-center">StuSmile</h2>
             <div className='md:p-4'>
             <p className="text-[#1E2B5E] leading-7 md:mx-10 font-poppins text-md mb-4 text-center">
-            Studrill is an app where you can <span className="makeBold">express yourself in Japanese, get feedback,</span> and <span className="makeBold">speak Japanese unconsciously.</span> With these features, you can finally StuSmile because we make you speak Japanese.
+            Studrill is an AI-powered app where you can <span className="makeBold">express yourself in Japanese and get feedback to improve your mistakes.</span> With these features, you can finally StuSmile because we transform you from <span className='makeBold'>Broken Japanese</span> to <span className='makeBold'>Natural Japanese.</span>
+            {/* Studrill is an app where you can <span className="makeBold">express yourself in Japanese, get feedback,</span> and <span className="makeBold">speak Japanese unconsciously.</span> With these features, you can finally StuSmile because we make you speak Japanese. */}
             </p>
             </div>
           </div>
@@ -56,7 +57,8 @@ export default function Benefits() {
             <h2 className="text-2xl font-poppins font-bold text-[#1E2B5E] text-center">StuRelax</h2>
             <div className='md:p-4'>
             <p className="text-[#1E2B5E] leading-7 md:mx-10 font-poppins text-md mb-4 text-center">
-            Studrill app provides you with <span className="makeBold">super detailed daily conversations, customized-to-topic Kanjy</span> (kanji and vocabulary), to <span className="makeBold">spoken grammar patterns.</span> These features will make you StuRelax because we prepare everything you need to speak Japanese naturally.
+            Studrill app provides you with detailed 7-in-1 curriculum: <span className="makeBold">Speaking Drill, Listening, Dialogue Immersion, Spoken Grammar Application, Vocabulary Memory, Kanji Scanning, and Writing Practice.</span> These features will make you StuRelax because we prepare everything you need to <span className='makeBold'>speak Japanese naturally.</span>
+
             </p>
             </div>
           </div>
@@ -79,7 +81,7 @@ export default function Benefits() {
             <h2 className="text-2xl font-poppins font-bold text-[#1E2B5E] text-center">StuConfident</h2>
             <div className='md:p-4'>
             <p className="text-[#1E2B5E] leading-7 md:mx-10 font-poppins text-md mb-4 text-center">
-            Studrill app <span className="makeBold">trains you</span> to <span className="makeBold">think</span> and <span className="makeBold">speak in Japanese.</span> Studrill also just had a very sad <span className="makeBold">goodbye to rigid textbook Japanese</span>, because we want you to be StuConfident - immersing you fully in natural Japanese conversation.
+            Studrill app <span className="makeBold">trains you to think and speak in Japanese</span> - not translating from your <span className="makeBold">native language</span> to Japanese! We also just had a very sad goodbye to rigid textbook Japanese, because we want you to be StuConfident - transforming you fully to become a <span className="makeBold">solid Japanese speaker.</span>
             </p>
             </div>
           </div>
