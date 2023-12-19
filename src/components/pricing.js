@@ -3,10 +3,10 @@ import { FaAppStoreIos, FaApple, FaApplePay, FaCheck, FaCheckCircle, FaGooglePay
 import Image from 'next/image'
 import Appstore from '../assets/black.svg'
 const Pricing = () => {
-    const [toggle, setToggle] = useState(false)
+    const [toggle, setToggle] = useState(0)
 
-    const handleToggle = () => {
-        setToggle(!toggle)
+    const handleToggle = (val) => {
+        setToggle(val)
     }
 
   return (
@@ -14,39 +14,72 @@ const Pricing = () => {
         <h1 className='md:text-[25px] text-[24px] font-poppins font-bold text-[#1E2B5E] text-center'>Speak natural Japanese confidently now!</h1>
         <div className='px-5'>
         <div className='container flex justify-around slider bg-[#F8F9FC] my-4 rounded-full'>
-            <div className={`w-2/4 text-center p-2 rounded-full cursor-pointer text-black   ${toggle ? '' : 'bg-[#EFCB27] slideLeft ' }`} onClick={handleToggle}>
+        <div className={`w-2/4 text-center p-2 rounded-full cursor-pointer text-black   ${toggle == 0 ? 'bg-[#EFCB27] slideLeft ' : '' }`} onClick={()=>{
+            handleToggle(0)
+        
+        }}>
             <div className='3month'>
-                <p className='font-poppins font-semibold'>3 Months</p>
+                <p className='font-poppins font-semibold'>1 Month</p>
             </div>
             </div>
-            <div className={`w-2/4 text-center p-2 rounded-full cursor-pointer font-semibold  ${toggle ? 'bg-[#EFCB27] slideRight' : ''}`} onClick={handleToggle}>
+            <div className={`w-2/4 text-center p-2 rounded-full cursor-pointer text-black   ${toggle == 1 ? 'bg-[#EFCB27] ' : '' }`} onClick={()=>{
+            handleToggle(1)
+            }}>
+            <div className='3month'>
+                <p className='font-poppins font-semibold'>3 Month</p>
+            </div>
+            </div>
+            <div className={`w-2/4 text-center p-2 rounded-full cursor-pointer font-semibold  ${toggle == 2 ? 'bg-[#EFCB27] slideRight' : ''}`} onClick={()=>{
+            handleToggle(2)
+            
+            }}>
             <div className='6month'>
-                <p className='font-poppins font-semibold'>6 Months</p>
+                <p className='font-poppins font-semibold'>6 Month</p>
             </div>
             </div>
         </div>
         </div>
-        <div className='flex justify-evenly'>
-            <div className={` border-2 w-2/5 px-2 py-2 cursor-pointer shadow-md rounded-md ${toggle ? '' : 'border-[#EFCB27] borderAnimationWillChangeColorAtEveryCorner'} `} onClick={handleToggle}>
+        <div className='flex  justify-center items-center w-100'>
+        <div className={` border-2 w-2/5 px-2 py-2 m-2 w-9/12 cursor-pointer shadow-md rounded-md ${toggle == 0 ? 'border-[#EFCB27] borderAnimationWillChangeColorAtEveryCorner' : ''} `} onClick={()=>{
+            handleToggle(0)
+        }}>
                 <div className='text-center text-[#1E2B5E] '>
                     <div className='p-2 py-3 bg-[#ffc72733] rounded-md'>
-                        <p className='font-poppins font-bold text-[14px]'>3 Months</p>
+                        <p className='font-poppins font-bold text-[14px]'>1 Month</p>
                     </div>
                     <div className='text-center p-2 my-3'>
-                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥5,600</p>
-                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>(US$39)</p>
+                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥850</p>
+                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>(US$5.99)</p>
                     </div>
                     
                 </div>
             </div>
-            <div className={`border-2 w-2/5 px-2 py-2 cursor-pointer shadow-md rounded-md relative ${toggle ? 'border-[#EFCB27] borderAnimationWillChangeColorAtEveryCorner' : ''}`} onClick={handleToggle}>
-                <div className='text-center '>
-                <div className='p-2 py-3 bg-[#ffc72733] rounded-md'>
-                        <p className='font-poppins font-bold text-[14px]'>6 Months</p>
+            <div className={` border-2 w-2/5 px-2 py-2 m-2 w-9/12 cursor-pointer shadow-md rounded-md ${toggle == 1 ? 'border-[#EFCB27] borderAnimationWillChangeColorAtEveryCorner' : ''} `} onClick={()=>{
+            handleToggle(1)
+            }}>
+                <div className='text-center text-[#1E2B5E] '>
+                    <div className='p-2 py-3 bg-[#ffc72733] rounded-md'>
+                        <p className='font-poppins font-bold text-[14px]'>3 Month</p>
                     </div>
                     <div className='text-center p-2 my-3'>
-                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥10,800</p>
-                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>(US$75)</p>
+                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥2,000</p>
+                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>(US$14.49)</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div className={`border-2 w-2/5 px-2 py-2 m-2 w-9/12 cursor-pointer shadow-md rounded-md relative ${toggle == 2 ? 'border-[#EFCB27] borderAnimationWillChangeColorAtEveryCorner' : ''}`} onClick={()=>{
+            handleToggle(2)
+            
+            
+            }}>
+                <div className='text-center '>
+                <div className='p-2 py-3 bg-[#ffc72733] rounded-md'>
+                        <p className='font-poppins font-bold text-[14px]'>6 Month</p>
+                    </div>
+                    <div className='text-center p-2 my-3'>
+                        <p className='font-poppins text-[#6563D0] text-[16px] md:text-[20px] font-bold'>¥3,990</p>
+                        <p className='font-poppins text-[#6563D0] text-[14px] font-bold'>(US$28.49)</p>
                     </div>
                 </div>
                 <div className='absolute left-[50%] w-[100px] -translate-x-1/2 font-poppins bottom-[-18px] bg-[#2BA80C] rounded-full p-2 text-center text-[12px] font-semibold text-white'>
@@ -196,20 +229,22 @@ const Pricing = () => {
         </div> */}
 
         <div className='mx-10 my-10'>
-            <button className='rounded-full p-2 w-full flex justify-center items-center bg-[#EFCB27] text-white font-poppins font-bold'>Coming to you this December </button>
+            {/* <button className='rounded-full p-2 w-full flex justify-center items-center bg-[#EFCB27] text-white font-poppins font-bold'>Coming to you this December </button> */}
             
         </div>
+        
         <div className='flex items-center justify-center'>
-            <div className=''>
-                <Image src={Appstore} width={150}  />
-            </div>
+            <a href="https://apps.apple.com/us/app/studrill-japanese-speaking/id6451344390?itsct=apps_box_badge&amp;itscg=30200" style={{display: 'inline-block', overflow: 'hidden', borderRadius: '13px', width: '200px', height: '83px'}}>
+                <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1702512000" alt="Download on the App Store" style={{borderRadius: '13px', width: '250px', height: '83px'}} />
+            </a>
             <div className='w-[30px]'></div>
             <div className=''>
-                    <img className='w-[180px]' src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"></img>
-
-
-
+                    {/* <img className='w-[180px]' src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"></img> */}
+                    <a href='https://play.google.com/store/apps/details?id=com.studrill.studrill&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' style={{width: '200px', height: '83px'}}>
+                        <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style={{width: '250px', }}/>
+                        </a>
             </div>
+
         </div>
         
     </div>

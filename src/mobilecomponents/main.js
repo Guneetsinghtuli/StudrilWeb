@@ -1,6 +1,4 @@
 import React from "react";
-import Think from "../assets/think.png";
-import Head from "next/head";
 import Image from "next/image";
 import Mobile from '../assets/mobile.png'
 import { FaPaperPlane } from "react-icons/fa";
@@ -118,7 +116,7 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
                 </p>
               </div>
             </div>
-            {
+            {/* {
               Submitted ? (
                 <div className="bg-[#EFCB27] w-9/12 text-[12px] md:text-[16px] text-[#1E2B5E] font-bold font-poppins px-2 py-4 rounded-lg">
                 <p className="text-center ">
@@ -147,7 +145,20 @@ App is launching this March! Get exclusive treatment if you sign-up early!`,
               </div>
                 </>
               )
-            }
+            } */}
+            <div className='flex items-center justify-center'>
+            <a href="https://apps.apple.com/us/app/studrill-japanese-speaking/id6451344390?itsct=apps_box_badge&amp;itscg=30200" style={{display: 'inline-block', overflow: 'hidden', borderRadius: '13px', width: '200px', height: '83px'}}>
+                <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1702512000" alt="Download on the App Store" style={{borderRadius: '13px', width: '250px', height: '83px'}} />
+            </a>
+            <div className='w-[30px]'></div>
+            <div className=''>
+                    {/* <img className='w-[180px]' src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"></img> */}
+                    <a href='https://play.google.com/store/apps/details?id=com.studrill.studrill&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' style={{width: '200px', height: '83px'}}>
+                        <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style={{width: '250px', }}/>
+                        </a>
+            </div>
+
+        </div>
               <div className=" flex justify-center md:w-9/12 w-full my-3 ">
                 <button className="bg-[#1E2B5E] w-full text-[12px] md:text-[16px]  text-[#fff] flex justify-center items-center p-3 rounded-full" onClick={sharePage}>
                 <p className="font-poppins font-medium mx-3  ">Share to your friends</p>

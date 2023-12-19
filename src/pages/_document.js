@@ -19,6 +19,15 @@ CLICK THE LINK now https://www.studrill.com/
 
 App is launching this March! Get exclusive treatment if you sign-up early!"
         />
+        <meta property="og:site_name" content="Studrill" />
+        {/* App Store Link */}
+        <meta property="al:ios:app_name" content="Studrill" />
+        <meta property="al:ios:app_store_id" content="6451344390" />
+        <meta property="al:ios:url" content="https://apps.apple.com/jp/app/studrill-japanese-speaking/id6451344390?l=en-US" />
+        {/* Android Play Store Link */}
+        <meta property="al:android:app_name" content="Studrill" />
+        <meta property="al:android:package" content="com.studrill.studrill" />
+        <meta property="al:android:url" content="https://play.google.com/store/apps/details?id=com.studrill.studrill" />
 
 
         <meta name="theme-color" content="#ffffff"></meta>
