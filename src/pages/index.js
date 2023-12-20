@@ -73,7 +73,7 @@ export default function Home() {
       <FeatureM />
       <Table />
       <Pricing />
-      <Upfooter />
+      {/* <Upfooter /> */}
       <Footer />
     </div>
   );

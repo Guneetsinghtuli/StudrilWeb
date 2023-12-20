@@ -18,7 +18,7 @@ export default function Homesection() {
       <FeatureM />
       <Table />
       <Pricing />
-      <Upfooter />
+      {/* <Upfooter /> */}
       <Footer />
      </div>
   )

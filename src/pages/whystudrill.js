@@ -11,7 +11,7 @@ const Whystudrill = () => {
             <Navbar />
             <Table />
             <Pricing />
-            <Upfooter />
+            {/* <Upfooter /> */}
             <Footer />
         </div>
     )

@@ -10,7 +10,7 @@ const Features = () => {
         <Navbar/>
             <FeatureM/>
             <Pricing/>
-            <Upfooter/>
+            {/* <Upfooter/> */}
             <Footer/>
         </div>
     )

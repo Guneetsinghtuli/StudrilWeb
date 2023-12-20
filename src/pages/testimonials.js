@@ -12,7 +12,7 @@ const Testimonials = () => {
             <Test />
             <div className="h-20 bg-gradient-to-b from-[#EFCB27] to-[#F8F9FC]"></div>
             <Pricing />
-            <Upfooter />
+            {/* <Upfooter /> */}
             <Footer />
         </div>
     )
