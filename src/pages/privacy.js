@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const PrivacyPolicy = () => {
+const Privacy = () => {
     return (
         <div className="md:ml-96 md:mr-96 font-poppins my-3">
             {/* Make a small back button */}
@@ -125,7 +125,7 @@ const PrivacyPolicy = () => {
                     <p>Delete your Studrill account by following the instructions in the Service.</p>
                 </div>
             </div>
-            You may update or correct your information in your Settings page. To make another privacy-related request, please send an email to contact@studrill.com
+            <p>You may update or correct your information in your Settings page. To make another privacy-related request, please send an email to contact@studrill.com</p>
 
             </div>
 
@@ -151,29 +151,8 @@ const PrivacyPolicy = () => {
             <p className="mx-1 my-3">
                 If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at <a href='mailto:contact@studrill.com' className='font-bold text-blue-700'>contact@studrill.com</a>
             </p>
-{/* 
-            <h2 className="font-bold">
-                SECTION 8 – CHANGES TO THIS PRIVACY POLICY
-            </h2>
-
-            <p className="mx-1 my-3">
-
-                We reserve the right to modify this privacy policy at any time, so please review it frequently. Changes and clarifications will take effect immediately upon their posting on the website. If we make material changes to this policy, we will notify you here that it has been updated, so that you are aware of what information we collect, how we use it, and under what circumstances, if any, we use and/or disclose it.
-
-                If our store is acquired or merged with another company, your information may be transferred to the new owners so that we may continue to sell products to you.
-
-                “By using our website, you (the visitor) agree to allow third parties to process your IP address, in order to determine your location for the purpose of currency conversion. You also agree to have that currency stored in a session cookie in your browser (a temporary cookie which gets automatically removed when you close your browser). We do this in order for the selected currency to remain selected and consistent when browsing our website so that the prices can convert to your (the visitor) local currency.”
-
-            </p>
-
-            <h2 className="font-bold">
-                QUESTIONS AND CONTACT INFORMATION
-            </h2>
-            <p className="mx-1 my-3">
-                If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at contact@studrill.com
-            </p> */}
         </div>
     )
 }
 
-export default PrivacyPolicy
+export default Privacy
